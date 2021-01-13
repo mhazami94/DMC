@@ -1,0 +1,720 @@
+﻿
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="slideshow-container">
+
+    <div class="mySlides fade">
+        <img src="/img/banner1.png" class="slider-img">
+        <img src="/img/banner-res-1.png" class="slider-img-res" />
+        <div class="slider-caption">
+            <div class="slider-text-first">Bizde senin gibiyiz</div>
+            <div class="slider-text-second-1">HİÇ VAZGEÇMİYORUZ!</div>
+            <div class="slider-btn">
+                <a href="/open-new-real" target="_blank" class="real-account">Gerçek Hesap Oluştur</a>
+                <a href="/open-new-demo" target="_blank" class="demo-account">Demo Hesap Oluştur</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="mySlides fade">
+        <img src="/img/banner2.png" class="slider-img">
+        <img src="/img/banner-res-2.png" class="slider-img-res" />
+        <div class="slider-caption">
+            <div class="slider-text-first">Güçlü Altyapısı ile</div>
+            <div class="slider-text-second-2">Her Zaman Hazırlıklı!</div>
+            <div class="slider-btn">
+                <a href="/open-new-real" target="_blank" class="real-account">Gerçek Hesap Oluştur</a>
+                <a href="/open-new-demo" target="_blank" class="demo-account">Demo Hesap Oluştur</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="mySlides fade">
+        <img src="/img/banner3.png" class="slider-img">
+        <img src="/img/banner-res-3.png" class="slider-img-res" />
+        <div class="slider-caption">
+            <div class="slider-text-first">Yatırımını Şansa Bırakma</div>
+            <div class="slider-text-second-3">UZMANINA BIRAK!</div>
+            <div class="slider-btn">
+                <a href="/open-new-real" target="_blank" class="real-account">Gerçek Hesap Oluştur</a>
+                <a href="/open-new-demo" target="_blank" class="demo-account">Demo Hesap Oluştur</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="mySlides fade">
+        <img src="/img/banner4.png" class="slider-img">
+        <img src="/img/banner-res-4.png" class="slider-img-res" />
+        <div class="slider-caption">
+            <div class="slider-text-first">Kripto para işlemleri için</div>
+            <div class="slider-text-second-4">DMC Markets Limited</div>
+            <div class="slider-btn">
+                <a href="/open-new-real" target="_blank" class="real-account">Gerçek Hesap Oluştur</a>
+                <a href="/open-new-demo" target="_blank" class="demo-account">Demo Hesap Oluştur</a>
+            </div>
+        </div>
+    </div>
+
+    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+    <div class="widget">
+        <div class="tradingview-widget-container">
+            <div class="tradingview-widget-container__widget"></div>
+            <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-tickers.js" async>
+                {
+                    "symbols": [
+                        {
+                            "proName": "FOREXCOM:SPXUSD",
+                            "title": "SP 500"
+                        },
+                        {
+                            "proName": "FOREXCOM:NSXUSD",
+                            "title": "Nasdaq 100"
+                        },
+                        {
+                            "proName": "FX_IDC:EURUSD",
+                            "title": "EUR/USD"
+                        },
+                        {
+                            "proName": "BITSTAMP:BTCUSD",
+                            "title": "BTC/USD"
+                        },
+                        {
+                            "proName": "BITSTAMP:ETHUSD",
+                            "title": "ETH/USD"
+                        }
+                    ],
+                        "colorTheme": "light",
+                            "isTransparent": false,
+                                "showSymbolLogo": true,
+                                    "locale": "tr"
+                }
+            </script>
+        </div>
+    </div>
+
+</div>
+
+<section class="items-line">
+    <div class="items-line-box">
+        <h1>DMC Markets Limited’in Akılcı Platformu</h1>
+        <h2>Kullanıcıları düşünerek tasarlandı</h2>
+        <div id="slider">
+            <a class="control_next"> <i class="fas fa-chevron-right"></i> </a>
+            <a class="control_prev"> <i class="fas fa-chevron-left"></i> </a>
+            <ul>
+                <li class="line-item">
+                    <h3>Güvenlik</h3>
+                    <img src="/img/1.png" />
+                    <a href="#">
+                        Daha Fazlası
+                        <i class="fas fa-chevron-right"></i>
+                    </a>
+                </li>
+                <li class="line-item">
+                    <h3>
+                        Kullanıcı Dostu
+                        İşlem Platformu
+                    </h3>
+                    <img src="/img/2.png" />
+                    <a target="_blank" href="/open-new-real">
+                        Hesap Oluştur
+                        <i class="fas fa-chevron-right"></i>
+                    </a>
+                </li>
+                <li class="line-item">
+                    <h3>
+                        Kolay Takip Edilebilir
+                        Emir Defteri
+                    </h3>
+                    <img src="/img/3.png" />
+                    <a href="#">
+                        Büyük Kolaylık
+                        <i class="fas fa-chevron-right"></i>
+                    </a>
+                </li>
+                <li class="line-item">
+                    <h3>
+                        Tüm Varlıklarınız
+                        Tek Platformda
+                    </h3>
+                    <img src="/img/4.png" />
+                    <a href="#">
+                        Hesap Oluştur
+                        <i class="fas fa-chevron-right"></i>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</section>
+<div class="sp-line"></div>
+
+<section class="monitor">
+    <div class="monitor-box">
+        <div class="monitor-img">
+            <img src="/img/monitor.png" class="monitor-imgage" />
+            <img src="/img/monitor-res.png" class="monitor-img-res" />
+        </div>
+        <div class="monitor-text">
+            <h2>
+                En brokerların tercihi DMC’ye Hoş Geldiniz!
+            </h2>
+            <p>
+                Dünyanın en iyi forex firmalarından DMC'ye hoş geldiniz! 2 yılı aşkın
+                bir süredir titiz ve yenilikçi profilimiz ile finansal piyasalara yüksek kaliteli
+                bağlantı sağlıyoruz. 5 varlık sınıfında 250'den fazla enstürüman ve CFD'ler
+                ile FOREX dünyasını keşfedin.
+            </p>
+            <a href="#" class="btn-sign">
+                Daha Fazlası
+            </a>
+            <a target="_blank" href="/open-new-real" class="btn-sign-res">
+                Keşfet
+            </a>
+        </div>
+    </div>
+</section>
+<div class="sp-line"></div>
+<section class="mobile">
+    <div class="mobile-box">
+        <div class="mobile-text">
+            <h2>
+                İşlemlerinizi Cep Telefonunuzdan Yapın
+            </h2>
+            <p>
+                Online olup, nerede olursanız olun FOREX piyasasında
+                işlem yapın. Hızlı, sorunsuz alt yapımızla doğru emir
+                iletimlerinden ve yüksek likititeden yararlanın.
+            </p>
+            <p>
+                iOS ve Android telefonlar için
+            </p>
+            <div class="app-box">
+                <a href="#">
+                    <img src="/img/apple.png" />
+                </a>
+                <a href="/img/google.png">
+                    <img src="/img/google.png" />
+                </a>
+            </div>
+        </div>
+        <div class="mobile-img">
+            <img src="/img/mobile.png" />
+        </div>
+    </div>
+</section>
+
+<section class="newsletter">
+    <div class="newsletter-box">
+        <div class="newsletter-input">
+            <input type="text" class="news-input" placeholder="e-posta" />
+        </div>
+        <div class="newsletter-btn">
+            <button class="subscribt" type="submit">Email Olarak Gönder</button>
+        </div>
+    </div>
+</section>
+
+<section class="icons">
+    <div class="icons-box">
+        <a class="icons-item">
+            <img src="/img/avatar-icon.png" />
+            <span class="icons-item-num">01</span>
+            <div class="icons-item-text">
+                <h3>
+                    Hesap Açın
+                </h3>
+                <p>
+                    Dakikalar içerisinde hesabınızı oluşturun.
+                    Kişiye Özel Yatırım Danışmanlarımızdan
+                    hemen destek alın.
+                </p>
+            </div>
+        </a>
+        <a class="icons-item">
+            <img src="/img/money-icon.png" />
+            <span class="icons-item-num">02</span>
+            <div class="icons-item-text">
+                <h3>
+                    Hesaba Para Yükleyin
+                </h3>
+                <p>
+                    Ödeme yöntemi seçeneklerinden sizin için
+                    uygun olanı seçin. Yatırımlarınız için gerekli
+                    parayı hemen yatırın.
+                </p>
+            </div>
+        </a>
+        <a class="icons-item">
+            <img src="/img/currency-icon.png" />
+            <span class="icons-item-num">03</span>
+            <div class="icons-item-text">
+                <h3>
+                    Yatırıma Başlayın
+                </h3>
+                <p>
+                    Kişiye özel yatırım danışmanlarımız, Analizlerimiz
+                    Günlük Bültenlerimiz ve daha bir çok argüman ile
+                    yatırımlarınıza yön verin.
+                </p>
+            </div>
+        </a>
+        <div class="icons-btn-box">
+            <a target="_blank" href="/open-new-real" class="icons-btn">
+                Bir Hesap Oluştur
+            </a>
+        </div>
+
+    </div>
+</section>
+<div class="sp-line"></div>
+
+<section class="screen-section">
+    <div class="screen-section-box">
+        <h3>
+            Siz Nerede, Hangi Platformu İsterseniz
+        </h3>
+        <h4>
+            DMC işlem platformu ile ayrıcalıklı yatırım fırsatları sizi bekliyor.
+        </h4>
+        <div class="screen-section-content">
+            <div class="screen-section-icons">
+                <a class="screen-section-item-left">
+                    <img src="/img/earth-icon.png" />
+                    <span>
+                        Tüm İşletim Sistemleri
+                        ile Uyumlu
+                    </span>
+                </a>
+                <a class="screen-section-item-left">
+                    <img src="/img/chart-icon.png" />
+                    <span>
+                        Anlık Güncel Parite
+                        Bilgileri
+                    </span>
+                </a>
+                <a class="screen-section-item-left">
+                    <img src="/img/teacher-icon.png" />
+                    <span>
+                        Sinyal ve Analiz
+                        Desteği
+                    </span>
+                </a>
+            </div>
+            <div class="screen-section-screen">
+                <img src="/img/screen.png" />
+            </div>
+            <div class="screen-section-icons">
+                <a class="screen-section-item">
+                    <img src="/img/target-icon.png" />
+                    <span>
+                        Başarılı Kullanıcı
+                    </span>
+                </a>
+                <a class="screen-section-item">
+                    <img src="/img/time-icon.png" />
+                    <span>
+                        Anlık Güncel Parite
+                        Bilgileri
+                    </span>
+                </a>
+                <a class="screen-section-item">
+                    <img src="/img/cup-icon.png" />
+                    <span>
+                        Sinyal ve Analiz
+                        Desteği
+                    </span>
+                </a>
+            </div>
+        </div>
+        <div class="screen-section-screen-res">
+            <img src="/img/screen.png" />
+        </div>
+    </div>
+</section>
+
+<section class="trade-table">
+    <div class="trade-table-box">
+        <h3>
+            DMC Markets Limited Canlı Piyasa Verileri
+        </h3>
+        <h4>
+            200’den fazla yatırım enstrümanı ile yatırımlarınızı genişletin
+        </h4>
+
+        <div>
+            <div class="tradingview-widget-container">
+                <div class="tradingview-widget-container__widget"></div>
+                <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-market-quotes.js" async>
+                    {
+                        "width": 770,
+                            "height": 450,
+                                "symbolsGroups": [
+                                    {
+                                        "name": "Indices",
+                                        "originalName": "Indices",
+                                        "symbols": [
+                                            {
+                                                "name": "FOREXCOM:SPXUSD",
+                                                "displayName": "S&P 500"
+                                            },
+                                            {
+                                                "name": "FOREXCOM:NSXUSD",
+                                                "displayName": "Nasdaq 100"
+                                            },
+                                            {
+                                                "name": "FOREXCOM:DJI",
+                                                "displayName": "Dow 30"
+                                            },
+                                            {
+                                                "name": "INDEX:NKY",
+                                                "displayName": "Nikkei 225"
+                                            },
+                                            {
+                                                "name": "INDEX:DEU30",
+                                                "displayName": "DAX Index"
+                                            },
+                                            {
+                                                "name": "FOREXCOM:UKXGBP",
+                                                "displayName": "FTSE 100"
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "name": "Commodities",
+                                        "originalName": "Commodities",
+                                        "symbols": [
+                                            {
+                                                "name": "CME_MINI:ES1!",
+                                                "displayName": "S&P 500"
+                                            },
+                                            {
+                                                "name": "CME:6E1!",
+                                                "displayName": "Euro"
+                                            },
+                                            {
+                                                "name": "COMEX:GC1!",
+                                                "displayName": "Gold"
+                                            },
+                                            {
+                                                "name": "NYMEX:CL1!",
+                                                "displayName": "Crude Oil"
+                                            },
+                                            {
+                                                "name": "NYMEX:NG1!",
+                                                "displayName": "Natural Gas"
+                                            },
+                                            {
+                                                "name": "CBOT:ZC1!",
+                                                "displayName": "Corn"
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "name": "Bonds",
+                                        "originalName": "Bonds",
+                                        "symbols": [
+                                            {
+                                                "name": "CME:GE1!",
+                                                "displayName": "Eurodollar"
+                                            },
+                                            {
+                                                "name": "CBOT:ZB1!",
+                                                "displayName": "T-Bond"
+                                            },
+                                            {
+                                                "name": "CBOT:UB1!",
+                                                "displayName": "Ultra T-Bond"
+                                            },
+                                            {
+                                                "name": "EUREX:FGBL1!",
+                                                "displayName": "Euro Bund"
+                                            },
+                                            {
+                                                "name": "EUREX:FBTP1!",
+                                                "displayName": "Euro BTP"
+                                            },
+                                            {
+                                                "name": "EUREX:FGBM1!",
+                                                "displayName": "Euro BOBL"
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "name": "Forex",
+                                        "originalName": "Forex",
+                                        "symbols": [
+                                            {
+                                                "name": "FX:EURUSD"
+                                            },
+                                            {
+                                                "name": "FX:GBPUSD"
+                                            },
+                                            {
+                                                "name": "FX:USDJPY"
+                                            },
+                                            {
+                                                "name": "FX:USDCHF"
+                                            },
+                                            {
+                                                "name": "FX:AUDUSD"
+                                            },
+                                            {
+                                                "name": "FX:USDCAD"
+                                            }
+                                        ]
+                                    }
+                                ],
+                                    "showSymbolLogo": true,
+                                        "colorTheme": "light",
+                                            "isTransparent": false,
+                                                "locale": "en"
+                    }
+                </script>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="rock">
+    <div class="rock-box">
+        <div class="rock-content">
+            <h3>
+                Ürün Çeşitliliği
+            </h3>
+
+            <p>
+                DMC Markets Limited’in zengin ürünleri ile yatırımlarınızı çeşitlendirin. AB, ABD, ASYA
+                ve RUSYA hisseleri, Emtialar, Metaller, Kripto Paralar FX Yarırımları ve daha bir çok
+                seçenek ile varlıklarınızı yönetin.
+            </p>
+            <div class="rock-img-res">
+
+            </div>
+            <div class="rock-list">
+                <div class="rock-item">
+                    <h5>
+                        FOREX İŞLEMLERİ
+                    </h5>
+                    <img src="/img/zoomchart.png" />
+                </div>
+                <div class="rock-item">
+                    <h5>
+                        EMTİALAR
+                    </h5>
+                    <img src="/img/step.png" />
+                </div>
+                <div class="rock-item">
+                    <h5>
+                        METALLER
+                    </h5>
+                    <img src="/img/star.png" />
+                </div>
+                <div class="rock-item">
+                    <h5>
+                        KRİPTO PARALAR
+                    </h5>
+                    <img src="/img/bitcoin.png" />
+                </div>
+                <div class="rock-item">
+                    <h5>
+                        BORSA ENDEKSLERİ
+                    </h5>
+                    <img src="/img/notebook.png" />
+                </div>
+            </div>
+            <div>
+                <a target="_blank" href="/open-new-real" class="rock-btn">
+                    Hesap Oluştur
+                </a>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="section-submit">
+    <div class="section-submit-box">
+        <div class="social">
+            <div>
+                <h5>
+                    Daha Fazla Düşünmeyin
+                </h5>
+                <h6>
+                    Şimdi hayallerinizi gerçekleştirmenin tam zamanı.
+                </h6>
+                <p>
+                    DMC Markets Limited kadın çalışan sayısındaki fazlalık ile kadın
+                    istihdamına önem veren. Düzenli gelirlerinin bir yüzdesini sosyal
+                    sorumluluklara ayıran. Sokak hayvanlarına yem ve yuva temin eden
+                    sosyal bir organizasyondur.
+                </p>
+            </div>
+            <h5>
+                İletişim Bilgilerimiz
+            </h5>
+            <h6>
+                Dilediğiniz konuda bizimle iletişime geçin.
+            </h6>
+
+            <span>
+                Sosyal Medya Hesaplarımız
+            </span>
+            <div class="social-media">
+                <a href="#">
+                    <img src="/img/instagram.png" />
+                </a>
+                <a href="#">
+                    <img src="/img/facebook.png" />
+                </a>
+                <a href="#">
+                    <img src="/img/twitter.png" />
+                </a>
+                <a href="#">
+                    <img src="/img/whatsapp.png" />
+                </a>
+                <p>
+                    E-Posta
+                </p>
+                <p>
+                    <a class="black" href="mailto:tr@dmcfx.com">
+                        tr@dmcfx.com
+                    </a>
+                </p>
+            </div>
+            <div class="tel-box">
+                <p>
+                    Telefon / WhatsApp
+                </p>
+                <p>
+                    +501 22 35803
+                </p>
+            </div>
+        </div>
+        <div class="signup-form">
+            <div class="input-box">
+                <input type="text" class="input-style" placeholder="Ad / Soyad (Gerekli)" />
+                <select type="text" class="input-style">
+                    <option>
+                        Ülke (Gerekli)
+                    </option>
+                </select>
+                <input type="text" class="input-style" placeholder="Telefon (Gerekli)" />
+                <input type="text" class="input-style" placeholder="E-mail (Gerekli)" />
+                <input type="text" class="input-style" placeholder="Şifre" />
+                <input type="text" class="input-style" placeholder="Şifre Tekrarı" />
+                <div class="input-check">
+                    <input type="checkbox" />
+                    <span>
+                        Veri gizliliği beyanını ve katılım şartlarını okudum ve anladım.
+                    </span>
+                </div>
+                <div class="input-check">
+                    <input type="checkbox" />
+                    <span>
+                        Bu sitedeki haberler hakkında beni bilgilendiren e-postalar
+                        almak istiyorum.
+                    </span>
+                </div>
+                <div class="btn-box">
+                    <button type="submit" class="btn-full-green">Şimdi Kayıt Ol</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<div class="sp-line"></div>
+
+<section class="bank-cer">
+    <div class="bank-cer-box">
+        <h3>
+            Fiyat Sağlayıcılarımız
+        </h3>
+        <h4>
+            2020 yılı fiyat sağlayıcılarımız aşağıda yer almaktadır
+        </h4>
+        <div class="bank-cer-item mg-l-0">
+            <img src="/img/swiss-icon.png" />
+        </div>
+        <div class="bank-cer-item">
+            <img src="/img/merrill-icon.png" />
+        </div>
+        <div class="bank-cer-item">
+            <img src="/img/citi-icon.png" />
+        </div>
+        <div class="bank-cer-item">
+            <img src="/img/jp-icon.png" />
+        </div>
+        <div class="bank-cer-item">
+            <img src="/img/deutsch-icon.png" />
+        </div>
+        <div class="bank-cer-item mg-r-0">
+            <img src="/img/merket-icon.png" />
+        </div>
+    </div>
+</section>
+<div class="sp-line"></div>
+
+<section class="licenses">
+    <div class="licenses-box">
+        <h3>
+            Lisanslarımız
+        </h3>
+        <div class="license-item">
+            <img src="/img/VFSC.png" />
+        </div>
+        <div class="license-item">
+            <img src="/img/belize.png" />
+        </div>
+        <div class="license-item">
+            <img src="/img/CySEC.png" />
+        </div>
+    </div>
+</section>
+<div class="sp-line"></div>
+
+<section class="payment-section">
+    <div class="payment-section-box">
+        <h3>
+            Ödeme Yöntemleri
+        </h3>
+        <div class="payment-item mg-l-0">
+            <i class="pf pf-visa"></i>
+        </div>
+        <div class="payment-item">
+            <i class="pf pf-maestro"></i>
+        </div>
+        <div class="payment-item">
+            <i class="pf pf-mastercard"></i>
+        </div>
+        <div class="payment-item">
+            <i class="pf pf-bitcoin"></i>
+        </div>
+        <div class="payment-item">
+            <i class="pf pf-bank-transfer"></i>
+        </div>
+        <div class="payment-item mg-r-0">
+            <i class="pf pf-jcb"></i>
+        </div>
+
+    </div>
+</section>
+
+<section class="newsletter-section">
+    <div class="newsletter-section-box">
+        <h4>
+            Gelişmelerden Haberdar  Olun
+        </h4>
+        <h5>
+            Bültenimize Abone Olun, Yeni Bilgileri İlk Siz Öğrenin
+        </h5>
+        <div class="news-inpuy-box">
+            <input class="news-input-bottom" placeholder="E-Posta Adresiniz" />
+            <button class="news-input-btn">GÖNDER</button>
+        </div>
+    </div>
+</section>

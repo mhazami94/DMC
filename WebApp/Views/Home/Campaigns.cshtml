@@ -1,0 +1,73 @@
+﻿@model Customer
+@{
+    ViewData["Title"] = "Campaigns";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+
+<section class="sub-header">
+    <div class="sub-img">
+        <img src="/img/sub/Campaing.jpg" />
+        <h1>KAMPANYALAR</h1>
+    </div>
+</section>
+<form method="post" action="/Campaigns">
+    <section class="sub-content">
+        <div class="sub-seprator">
+            <span></span>
+        </div>
+        <p>
+            DMC Markets Limited Apple Watch Kampanya Koşulları
+        </p>
+        <div class="company-box">
+            <div class="company-text">
+                <p>
+                    Apple yarışması dmcfx.com adresi üzerinden yapılan başvurular doğrultusunda gerçekleşir.
+                </p>
+                <p>
+                    Tüm adaylar yarışmaya yalnızca bir (1) kez katılım sağlayabilir.
+                </p>
+                <p>
+                    Yarışmaya Iphone 11 kategorisinden katılmak isteyen adayların minimum $3000 + 300 lot,
+                    Ipad kategorisinden katılmak isteyen adayların minimum $1500 + 150 lot, Apple Watch kategorisinden
+                    katılmak isteyen adayların $1000 + 100 lot şartını tamamlamaları gerekir.
+                </p>
+                <p>
+                    Yarışmada ödül kazanılması için lot miktarının eksiksiz olarak bir (1) ay içerisinde tamamlanması beklenir.
+                </p>
+                <p>
+                    Koşulları eksiksiz bir şekilde tamamlayan adayın danışmanına bilgi vermesi gerekir.
+                </p>
+                <p>
+                    Kazanılan ödül değiştirilemez ya da nakde dönüştürülemez.
+                </p>
+                <p>
+                    Yarışmaya katılım ücretsizdir.
+                </p>
+                <p>
+                    Ad, soy ad ya da adres bilgisinde gerçekleşmiş hatalı başvurular kabul edilmez.
+                </p>
+                <p>
+                    Başvuru formunu dolduran herkes bu şartları kabul etmiş sayılır.
+                </p>
+            </div>
+
+            <div class="company-form">
+
+                @Html.AntiForgeryToken()
+                <input type="text" name="Country" class="login-input" placeholder="İkamet edilen ülke *" />
+                <input type="text" name="FirstName" class="login-input" placeholder="Adınız *" />
+                <input type="text" name="LastName" class="login-input" placeholder="Soy Adınız *" />
+                <input type="text" name="Email" class="login-input" placeholder="E-Posta *" />
+                <input type="password" name="Password" class="login-input" placeholder="Şifre *" />
+                <input type="password" name="RepeatPassword" class="login-input" placeholder="Şifrenizi Tekrar Girin *" />
+
+                <button type="submit" class="login-form-btn">Kampanyaya Katıl</button>
+
+
+            </div>
+        </div>
+
+
+    </section>
+</form>

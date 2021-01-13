@@ -1,0 +1,423 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - DMC</title>
+    <link rel="icon" type="image/x-icon" sizes="16x16" href="~/favicon.ico" />
+    <link rel="icon" type="image/x-icon" sizes="16x16" href="~/favicon-16x16.png" />
+    <link rel="icon" type="image/x-icon" sizes="32x32" href="~/favicon-32x32.png" />
+    <link rel="icon" type="image/x-icon" sizes="96x96" href="~/favicon-96x96.png" />
+    <script src="/lib/jquery/dist/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://use.typekit.net/hxi7yqv.css">
+
+    <link href="~/fonts/payment-font/paymentfont.min.css" rel="stylesheet" />
+
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="nav-bar" id="nav-bar">
+                <span id="res-icon-menu">
+                    <img src="/img/res-icon.png" />
+                </span>
+                <a href="/" class="logo-box">
+                    <img id="logo" class="logo" src="/img/DMC_Logo.svg" />
+                    <img class="logo-res" src="/img/logo-res.png" />
+                </a>
+                <div class="nav-menu" id="nav-menu">
+                    <div class="nav-search-res">
+                        @*<input type="text" placeholder="Ara" class="search-input-res" />*@
+                        <div class="div-btn-nav-res">
+                            <a class="login-btn">Giriş</a>
+                            <select class="lang-bar-res">
+                                <option>TR</option>
+                                <option>EN</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="under-line"></div>
+                    <ul class="menu">
+
+                        <li>
+                            <a href="/AboutUs">
+                                Hakkımızda
+                                <span>
+                                    <i class="fas fa-chevron-down"></i>
+                                </span>
+                            </a>
+                            <div class="submenu">
+                                <div class="submenu-box">
+                                    <ul>
+                                        <li>
+                                            <a href="/career">
+                                                Kariyer
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="/Certificates">
+                                                Sertifikalar
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="/Contact">
+                                                İletişim
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <a href="#">
+                                Ürünler
+                                <span>
+                                    <i class="fas fa-chevron-down"></i>
+                                </span>
+                            </a>
+                            <div class="submenu">
+                                <div class="submenu-box">
+                                    <ul>
+                                        <li>
+                                            <a href="/Forex">
+                                                Forex
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="/Metals">
+                                                Metaller
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="/Energy">
+                                                Enerji
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="/Indexes">
+                                                Endeksler
+                                            </a>
+                                        </li>
+                                        @*<li>
+                                                <a href="/Stock">
+                                                    Hisse
+                                                </a>
+                                            </li>*@
+                                        <li class="brd-top">
+                                            <a href="/Crypto-currencies">
+                                                Kripto Paralar
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+
+                        </li>
+                        <li>
+                            <a href="#">
+                                Hesaplar
+                                <span>
+                                    <i class="fas fa-chevron-down"></i>
+                                </span>
+                            </a>
+                            <div class="submenu">
+                                <div class="submenu-box">
+                                    <ul>
+                                        <li>
+                                            <a target="_blank" href="/open-new-demo">
+                                                Demo Hesap
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a target="_blank" href="/open-new-real">
+                                                Gerçek Hesap
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a target="_blank" href="/open-new-account-transfer">
+                                                Hesap Taşıma
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a target="_blank" href="/open-new-mom">
+                                                IB İşlemleri
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <a href="#">
+                                Platform
+                                <span>
+                                    <i class="fas fa-chevron-down"></i>
+                                </span>
+                            </a>
+                            <div class="submenu">
+                                <div class="submenu-box">
+                                    <ul>
+                                        <li>
+                                            <a href="/Desktop-Meta-Trader">
+                                                MetaTrader Masaüstü
+                                            </a>
+                                        </li>
+                                        @*<li>
+                                            <a href="/Terminal-Meta-Trader">
+                                                MetaTrader Web Trader
+                                            </a>
+                                        </li>*@
+                                        <li>
+                                            <a href="/IOS-Meta-Trader">
+                                                MetaTrader iOS
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="/Android-Meta-Trader">
+                                                MetaTrader Android
+                                            </a>
+                                        </li>
+                                        @*<li>
+                                            <a href="#">
+                                                Mam
+                                            </a>
+                                        </li>*@
+                                    </ul>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <a href="#">
+                                Araçlar
+                                <span>
+                                    <i class="fas fa-chevron-down"></i>
+                                </span>
+                            </a>
+                            <div class="submenu">
+                                <div class="submenu-box">
+                                    <ul>
+                                        <li>
+                                            <a href="/Economic-Calendar">
+                                                Ekonomik Takvim
+                                            </a>
+                                        </li>
+                                        @*<li>
+                                                <a href="/Daily-Bulletin">
+                                                    Günlük Bülten
+                                                </a>
+                                            </li>*@
+                                        @*<li>
+                                                <a href="#">
+                                                    Analiz
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="#">
+                                                    Eğitim
+                                                </a>
+                                            </li>*@
+
+                                    </ul>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <a href="#">
+                                Promosyonlar
+                                <span>
+                                    <i class="fas fa-chevron-down"></i>
+                                </span>
+                            </a>
+                            <div class="submenu">
+                                <div class="submenu-box">
+                                    <ul>
+                                        <li>
+                                            <a href="/Campaigns">
+                                                Apple Kampanyası
+                                            </a>
+                                        </li>
+                                        @*<li>
+                                                <a href="#">
+                                                    Yeni Yıl Tatil Kampanyası
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="#">
+                                                    Hoş Geldin Kampanyası
+                                                </a>
+                                            </li>*@
+
+                                    </ul>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                    <div class="menu-footer">
+                        <div class="menu-footer-img">
+                            <img src="/img/logo-white.png" />
+                        </div>
+                        <p>
+                            2018 © DMC Markets Limited Tüm Hakları Saklıdır.
+                        </p>
+                    </div>
+                </div>
+                <div class="nav-tools">
+                    <div class="nav-btn" id="nav-btn">
+                        <a href="/login" target="_blank" class="nav-btn-item nav-btn-select" id="login">GİRİŞ</a>
+                        <a href="/register" target="_blank" class="nav-btn-item" id="signup">HESAP AÇ</a>
+                    </div>
+
+                    <ul class="lang-drop">
+                        <li id="lang-drop">
+                            <a href="#">
+                                <img src="/img/tr.png" />
+                                <span>TR</span>
+                                <i class="fas fa-chevron-down"></i>
+                            </a>
+                            <ul class="lang-bar-sub" id="lang-bar-sub">
+                                <li>
+                                    <a>
+                                        <img src="/img/en.png" />
+                                        <span>EN</span>
+                                    </a>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+
+                    @*<span class="searh-icon">
+                            <i class="fas fa-search"></i>
+                        </span>*@
+
+                </div>
+            </div>
+
+        </nav>
+
+    </header>
+
+    @RenderBody()
+
+    <section class="footer">
+        <div class="footer-box">
+            <div class="footer-logo">
+                <img src="/img/logo-white.png" />
+            </div>
+            <div class="footer-content">
+                <div class="footer-col mg-l-0">
+                    <div class="footer-col-head">
+                        <span class="footer-col-head-text">
+                            Hızlı Bağlantı
+                        </span>
+                        <img class="footer-head-icon" src="/img/quick.png" />
+                    </div>
+                    <div class="footer-col-1">
+                        <ul class="foolte-ul">
+                            <li>
+                                <a href="#">Hakkımızda</a>
+                            </li>
+                            <li>
+                                <a href="#">Ürünler</a>
+                            </li>
+                            <li>
+                                <a href="#">Hesaplar</a>
+                            </li>
+                            <li>
+                                <a href="#">Platformlar</a>
+                            </li>
+                            <li>
+                                <a href="#">Bilgi</a>
+                            </li>
+                            <li>
+                                <a href="#">Promosyonlar</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="footer-col">
+                    <div class="footer-col-head">
+                        <span class="footer-col-head-text">
+                            İletişim
+                        </span>
+                        <img class="footer-head-icon" src="/img/location.png" />
+                    </div>
+                    <div class="footer-col-2">
+                        <p class="footer-col-2-title">DMC Markets Limited</p>
+                        <p class="footer-col-2-title2">Trading Exchange for Feelings</p>
+                        <p class="footer-address">
+                            No.5 New Road, Belize Central America
+                        </p>
+                        <p class="footer-address">
+                            Telefon: +501 22 35803
+                        </p>
+                    </div>
+                </div>
+                <div class="footer-col mg-r-0">
+                    <div class="footer-col-head">
+                        <span class="footer-col-head-text">
+                            Sosyal Medya
+                        </span>
+                        <img class="footer-head-icon" src="/img/share.png" />
+                    </div>
+                    <div class="footer-social-media">
+                        <a href="#">
+                            <img src="/img/instagram.png" />
+                        </a>
+                        <a href="#">
+                            <img src="/img/facebook.png" />
+                        </a>
+                        <a href="#">
+                            <img src="/img/twitter.png" />
+                        </a>
+                        <a href="#">
+                            <img src="/img/whatsapp.png" />
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="cory-term">
+        <p>
+            2018 © DMC Markets Limited Tüm Hakları Saklıdır.
+        </p>
+    </section>
+    <section class="footer-bottom">
+        <p>
+            Gizlilik Politikası| Kullanım Koşulları
+        </p>
+        <p>
+            Risk Uyarısı: CFD'ler yüksek düzeyde risk oluşturan ve tüm sermayenizi kaybetmenize neden olan kaldıraçlı ürünlerdir ve bu nedenle tüm yatırımcılar için uygun olmayabilir.
+        </p>
+        <p>
+            Kaybetmeye hazır olduğunuzdan daha fazla risk almamanız ve ticarete karar vermeden önce lütfen riskleri anlamanızı, deneyim seviyenizi göz önünde bulundurmanızı
+        </p>
+        <p>
+            ve gerekirse bağımsız tavsiye isteyin. Kesinlikle yatırım tavsiyesi vermiyoruz
+        </p>
+    </section>
+
+    <div class="signup-flow" id="signup-flow">
+        <div class="signup-flow-box">
+            <img src="/img/arrow.png" class="arrow" />
+            <span class="close-signup" id="close-signup">
+                <i class="fas fa-times"></i>
+            </span>
+            <p>
+                Ücretsiz Demo Hesabı Aç
+            </p>
+            <a href="/open-new-demo" target="_blank" class="signup-btn">
+                Hesap Oluştur
+            </a>
+        </div>
+
+
+    </div>
+    <link href="~/css/all.min.css" rel="stylesheet" async />
+    <link rel="stylesheet" href="~/css/site.css" async />
+    <link href="/css/resp.min.css" rel="stylesheet" async />
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="/js/site.min.js" asp-append-version="true"></script>
+    @RenderSection("Scripts", required: false)
+</body>
+</html>

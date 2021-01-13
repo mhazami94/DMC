@@ -1,0 +1,52 @@
+﻿
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_AccountLayout.cshtml";
+}
+
+<section class="account-section">
+    <div class="account-section-box">
+        <div class="account-text-box">
+            <div class="account-text-contatiner">
+                <h1>
+                    ŞİMDİ HESABINI TAŞI
+                </h1>
+                <div class="red-line-seprator">
+                    <span></span>
+                </div>
+                <p>
+                    Forex hesabını DMC Markets Limited’e taşıyanlar, güvenli işlem
+                    yapmanın ayrıcalığını yaşıyor.
+                </p>
+                <p>
+                    Siz de forex hesabınızı DMC Markets Limited’e taşıyarak size özel
+                    fırsatlardan yararlanabilirsiniz!
+                </p>
+            </div>
+        </div>
+        <div class="account-form-box">
+            <form method="post" action="/open-new-account-transfer">
+                <section class="register-section">
+                    <div class="login-logo">
+                        <img src="/img/DMC_Logo.svg" />
+                    </div>
+                    <h1>
+                        Kolayca Üye Olun!
+                    </h1>
+                    @Html.AntiForgeryToken()
+                    <input type="text" name="Country" class="login-input" placeholder="İkamet edilen ülke *" />
+                    <input type="text" name="FirstName" class="login-input" placeholder="Adınız *" />
+                    <input type="text" name="LastName" class="login-input" placeholder="Soy Adınız *" />
+                    <input type="text" name="Email" class="login-input" placeholder="E-Posta *" />
+                    <input type="password" name="Password" class="login-input" placeholder="Şifre *" />
+                    <input type="password" name="RepeatPassword" class="login-input" placeholder="Şifrenizi Tekrar Girin *" />
+                    <button type="submit" class="login-form-btn">Hesap Oluştur</button>
+                </section>
+            </form>
+            <div class="register-footer text-center">
+                <span>ya da</span>
+                <a href="/login">Giriş Yap</a>
+            </div>
+        </div>
+    </div>
+</section>

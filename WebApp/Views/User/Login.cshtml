@@ -1,0 +1,36 @@
+﻿
+@{
+    ViewData["Title"] = "Login";
+    Layout = "~/Views/Shared/_AccountLayout.cshtml";
+}
+
+<section class="login-section">
+    <div class="login-logo">
+        <img src="/img/logo.png" />
+    </div>
+    <h1>
+        Giriş Yapın
+    </h1>
+    <div class="login-options-top">
+        <span>
+            Bir Hesabın yok mu?
+        </span>
+        <a href="/register">
+            Kayıt Ol
+            <i class="fas fa-chevron-right"></i>
+        </a>
+    </div>
+    <input type="text" class="login-input" placeholder="E-Posta *" />
+    <input type="password" class="login-input" placeholder="Şifre *" />
+    <div class="login-options">
+        <span>
+            Beni Hatırla
+        </span>
+        <a href="/ForgotPassword">
+            Şifremi Unuttum
+        </a>
+    </div>
+    <button type="submit" class="login-form-btn">Giriş Yap</button>
+</section>
+
+
