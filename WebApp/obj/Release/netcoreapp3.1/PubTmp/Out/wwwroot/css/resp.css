@@ -6,7 +6,6 @@
 }
 
 @media(max-width:1300px) {
-  
 }
 
 @media(max-width:1200px) {
@@ -242,6 +241,10 @@
 
 
 @media(max-width:576px) {
+    .screen-section-item-left, .screen-section-item {
+        text-align: center;
+    }
+
     .menu-footer {
         position: absolute;
         display: block;
@@ -335,7 +338,7 @@
     }
 
     .payment-item {
-        margin: 15px;
+        margin: 15px !important;
         width: auto;
         float: none;
     }

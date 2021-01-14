@@ -145,5 +145,11 @@ namespace WebApp.Controllers
         {
             return View();
         }
+
+        [Route("/Glossary")]
+        public IActionResult Glossary()
+        {
+            return View();
+        }
     }
 }

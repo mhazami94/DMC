@@ -26,21 +26,41 @@ namespace WebApp.Controllers
             return View();
         }
 
-        [Route("/open-new-mom")]
-        public IActionResult OpenNewMom()
+        [Route("/open-new-mam")]
+        public IActionResult OpenNewMam()
         {
             return View(new Customer());
         }
 
 
 
-        [Route("/open-new-mom")]
+        [Route("/open-new-mam")]
         [HttpPost]
         [AutoValidateAntiforgeryToken]
-        public IActionResult OpenNewMom(Customer customer)
+        public IActionResult OpenNewMam(Customer customer)
         {
             var mail = new MailSender();
             mail.SendFormToSupport(customer, "info@dmcfx.com", "Register Mom Account");
+            return View();
+        }
+
+
+
+        [Route("/open-new-ib")]
+        public IActionResult OpenNewIB()
+        {
+            return View(new Customer());
+        }
+
+
+
+        [Route("/open-new-ib")]
+        [HttpPost]
+        [AutoValidateAntiforgeryToken]
+        public IActionResult OpenNewIB(Customer customer)
+        {
+            var mail = new MailSender();
+            mail.SendFormToSupport(customer, "info@dmcfx.com", "Register IB Account");
             return View();
         }
 

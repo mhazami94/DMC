@@ -25,11 +25,12 @@ G:\WorkSpace\DMC\WebApp\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\favicon-16x
 G:\WorkSpace\DMC\WebApp\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\favicon-32x32.png
 G:\WorkSpace\DMC\WebApp\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\favicon-96x96.png
 G:\WorkSpace\DMC\WebApp\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\favicon.ico
-G:\WorkSpace\DMC\WebApp\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\fonts\payment-font\payment-webfont.eot
-G:\WorkSpace\DMC\WebApp\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\fonts\payment-font\payment-webfont.svg
-G:\WorkSpace\DMC\WebApp\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\fonts\payment-font\payment-webfont.ttf
-G:\WorkSpace\DMC\WebApp\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\fonts\payment-font\payment-webfont.woff
-G:\WorkSpace\DMC\WebApp\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\fonts\payment-font\style.css
+G:\WorkSpace\DMC\WebApp\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\fonts\payment-font\paymentfont-webfont.eot
+G:\WorkSpace\DMC\WebApp\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\fonts\payment-font\paymentfont-webfont.svg
+G:\WorkSpace\DMC\WebApp\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\fonts\payment-font\paymentfont-webfont.ttf
+G:\WorkSpace\DMC\WebApp\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\fonts\payment-font\paymentfont-webfont.woff
+G:\WorkSpace\DMC\WebApp\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\fonts\payment-font\paymentfont.css
+G:\WorkSpace\DMC\WebApp\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\fonts\payment-font\paymentfont.min.css
 G:\WorkSpace\DMC\WebApp\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\fonts\webfonts\fa-brands-400.eot
 G:\WorkSpace\DMC\WebApp\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\fonts\webfonts\fa-brands-400.svg
 G:\WorkSpace\DMC\WebApp\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\fonts\webfonts\fa-brands-400.ttf
@@ -65,6 +66,7 @@ G:\WorkSpace\DMC\WebApp\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\img\banner3
 G:\WorkSpace\DMC\WebApp\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\img\banner4.png
 G:\WorkSpace\DMC\WebApp\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\img\bcoin.png
 G:\WorkSpace\DMC\WebApp\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\img\belize.png
+G:\WorkSpace\DMC\WebApp\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\img\bg-ad.png
 G:\WorkSpace\DMC\WebApp\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\img\bitcoin.png
 G:\WorkSpace\DMC\WebApp\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\img\chart-icon.png
 G:\WorkSpace\DMC\WebApp\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\img\cirrus.png
@@ -81,6 +83,7 @@ G:\WorkSpace\DMC\WebApp\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\img\en.png
 G:\WorkSpace\DMC\WebApp\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\img\eway.png
 G:\WorkSpace\DMC\WebApp\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\img\facebook.png
 G:\WorkSpace\DMC\WebApp\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\img\file-icon.png
+G:\WorkSpace\DMC\WebApp\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\img\Glossary.png
 G:\WorkSpace\DMC\WebApp\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\img\google.png
 G:\WorkSpace\DMC\WebApp\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\img\instagram.png
 G:\WorkSpace\DMC\WebApp\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\img\jp-icon.png
@@ -172,6 +175,8 @@ G:\WorkSpace\DMC\WebApp\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\lib\jquery\
 G:\WorkSpace\DMC\WebApp\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\lib\jquery\dist\jquery.min.js
 G:\WorkSpace\DMC\WebApp\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\lib\jquery\dist\jquery.min.map
 G:\WorkSpace\DMC\WebApp\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\lib\jquery\LICENSE.txt
+G:\WorkSpace\DMC\WebApp\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\login.html
+G:\WorkSpace\DMC\WebApp\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\login.zip
 G:\WorkSpace\DMC\WebApp\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\ms-icon-144x144.png
 G:\WorkSpace\DMC\WebApp\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\ms-icon-150x150.png
 G:\WorkSpace\DMC\WebApp\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\ms-icon-310x310.png

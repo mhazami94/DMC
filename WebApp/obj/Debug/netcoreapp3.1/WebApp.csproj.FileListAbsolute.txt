@@ -248,7 +248,6 @@ G:\WorkSpace\DMC\WebApp\obj\Debug\netcoreapp3.1\Razor\Views\User\Login.cshtml.g.
 G:\WorkSpace\DMC\WebApp\obj\Debug\netcoreapp3.1\Razor\Views\User\Register.cshtml.g.cs
 G:\WorkSpace\DMC\WebApp\obj\Debug\netcoreapp3.1\Razor\Views\User\ForgotPassword.cshtml.g.cs
 G:\WorkSpace\DMC\WebApp\obj\Debug\netcoreapp3.1\Razor\Views\Account\AccountTransfer.cshtml.g.cs
-G:\WorkSpace\DMC\WebApp\obj\Debug\netcoreapp3.1\Razor\Views\Account\OpenNewMom.cshtml.g.cs
 G:\WorkSpace\DMC\WebApp\obj\Debug\netcoreapp3.1\Razor\Views\Account\OpenNewReal.cshtml.g.cs
 G:\WorkSpace\DMC\WebApp\obj\Debug\netcoreapp3.1\Razor\Views\Account\OpenNewDemo.cshtml.g.cs
 G:\WorkSpace\DMC\WebApp\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_AccountLayout.cshtml.g.cs
@@ -278,3 +277,6 @@ G:\WorkSpace\DMC\WebApp\bin\Debug\netcoreapp3.1\Services.dll
 G:\WorkSpace\DMC\WebApp\bin\Debug\netcoreapp3.1\DTO.pdb
 G:\WorkSpace\DMC\WebApp\bin\Debug\netcoreapp3.1\Services.pdb
 G:\WorkSpace\DMC\WebApp\obj\Debug\netcoreapp3.1\WebApp.csprojAssemblyReference.cache
+G:\WorkSpace\DMC\WebApp\obj\Debug\netcoreapp3.1\Razor\Views\Home\Glossary.cshtml.g.cs
+G:\WorkSpace\DMC\WebApp\obj\Debug\netcoreapp3.1\Razor\Views\Account\OpenNewMam.cshtml.g.cs
+G:\WorkSpace\DMC\WebApp\obj\Debug\netcoreapp3.1\Razor\Views\Account\OpenNewIB.cshtml.g.cs
