@@ -62,5 +62,20 @@ namespace Services.Mail
             return true;
 
         }
+
+        public bool SendFormToNewsletter(Newsletter newsletter, string email, string subject)
+        {
+            MailMessage message = new MailMessage(_sender, email);
+            message.IsBodyHtml = true;
+            message.Subject = subject;
+            var body = new StringBuilder();
+            body.AppendLine("<table>");      
+            body.AppendLine("<tr><td style = 'padding-left:15px;padding-right:15px'> Email :</td>");
+            body.AppendLine($"<td style = 'padding-left:15px;padding-right:15px'>{newsletter.Email}</td></tr></table>");
+            message.Body = body.ToString();
+            client.Send(message);
+            return true;
+
+        }
     }
 }

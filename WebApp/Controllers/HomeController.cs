@@ -127,6 +127,14 @@ namespace WebApp.Controllers
             return View();
         }
 
+        [Route("/Newsletter")]
+        [HttpPost]
+        public IActionResult Newsletter(Newsletter newsletter)
+        {
+            var mail = new MailSender();
+            mail.SendFormToNewsletter(newsletter, "info@dmcfx.com", "Newsletter Form");
+            return View();
+        }
 
         [Route("/Contact")]
         public IActionResult Contact()

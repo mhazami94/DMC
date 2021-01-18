@@ -449,10 +449,20 @@ nav {
     color: #fff;
 }
 
-.slider-text-second-1, .slider-text-second-2, .slider-text-second-3, .slider-text-second-4 {
+.slider-text-second-1, .slider-text-second-2, .slider-text-second-3 {
     font-size: 60px;
     font-weight: bold;
     color: #fff;
+}
+
+.slider-text-second-4 {
+    font-size: 60px;
+    font-weight: bold;
+    color: #1d252c;
+}
+
+.first-4 {
+    color: #1d252c;
 }
 
 .monitor-imgage {
@@ -693,7 +703,7 @@ a.control_next {
 
 .btn-sign {
     color: #000000;
-    font-size: 26px;
+    font-size: 24px;
 }
 
 .btn-sign-res {
@@ -784,6 +794,7 @@ a.control_next {
     font-size: 24px;
     border: none;
     outline: none;
+    cursor: pointer;
 }
 
 .news-input {

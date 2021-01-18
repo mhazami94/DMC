@@ -49,7 +49,7 @@
         <img src="/img/banner4.png" class="slider-img">
         <img src="/img/banner-res-4.png" class="slider-img-res" />
         <div class="slider-caption">
-            <div class="slider-text-first">Kripto para işlemleri için</div>
+            <div class="slider-text-first first-4">Kripto para işlemleri için</div>
             <div class="slider-text-second-4">DMC Markets Limited</div>
             <div class="slider-btn">
                 <a href="/open-new-real" target="_blank" class="real-account">Gerçek Hesap Oluştur</a>
@@ -110,7 +110,7 @@
                 <li class="line-item">
                     <h3>Güvenlik</h3>
                     <img src="/img/1.png" />
-                    <a href="#">
+                    <a target="_blank" href="/open-new-real">
                         Daha Fazlası
                         <i class="fas fa-chevron-right"></i>
                     </a>
@@ -132,7 +132,7 @@
                         Emir Defteri
                     </h3>
                     <img src="/img/3.png" />
-                    <a href="#">
+                    <a target="_blank" href="/open-new-real">
                         Büyük Kolaylık
                         <i class="fas fa-chevron-right"></i>
                     </a>
@@ -143,7 +143,7 @@
                         Tek Platformda
                     </h3>
                     <img src="/img/4.png" />
-                    <a href="#">
+                    <a target="_blank" href="/open-new-real">
                         Hesap Oluştur
                         <i class="fas fa-chevron-right"></i>
                     </a>
@@ -195,10 +195,10 @@
                 iOS ve Android telefonlar için
             </p>
             <div class="app-box">
-                <a href="#">
+                <a href="https://download.mql5.com/cdn/mobile/mt5/ios?server=DMCmarkets-Server" target="_blank">
                     <img src="/img/apple.png" />
                 </a>
-                <a href="/img/google.png">
+                <a href="https://download.mql5.com/cdn/mobile/mt5/android?server=DMCmarkets-Server" target="_blank">
                     <img src="/img/google.png" />
                 </a>
             </div>
@@ -210,14 +210,16 @@
 </section>
 
 <section class="newsletter">
-    <div class="newsletter-box">
-        <div class="newsletter-input">
-            <input type="text" class="news-input" placeholder="E-posta" />
+    <form method="post" action="/Newsletter">
+        <div class="newsletter-box">
+            <div class="newsletter-input">
+                <input type="text" name="Email" class="news-input" placeholder="E-posta" />
+            </div>
+            <div class="newsletter-btn">
+                <button class="subscribt" type="submit">Email Olarak Gönder</button>
+            </div>
         </div>
-        <div class="newsletter-btn">
-            <button class="subscribt" type="submit">Email Olarak Gönder</button>
-        </div>
-    </div>
+    </form>
 </section>
 
 <section class="icons">
