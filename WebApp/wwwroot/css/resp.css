@@ -14,8 +14,8 @@
         margin-left: 1%;
     }
 
-    section {
-        overflow: hidden;
+    .account-text-contatiner {
+        padding: 0 20px;
     }
 
     .slider-caption {
@@ -241,6 +241,10 @@
 
 
 @media(max-width:576px) {
+    .register-footer {
+        text-align: center;
+    }
+
     .screen-section-item-left, .screen-section-item {
         text-align: center;
     }
@@ -256,6 +260,7 @@
         .menu-footer p {
             color: #fff;
             text-align: center;
+            font-size: 12px;
         }
 
     .menu-footer-img {
@@ -269,6 +274,7 @@
     .account-text-contatiner {
         position: static;
         padding: 0 15px;
+        display: none;
     }
 
     .account-text-box {
@@ -722,8 +728,7 @@
     }
 }
 
-
-@media(max-width:414px) {
+@media(max-width:460px) {
     .rock-item {
         width: 35%;
     }
@@ -741,6 +746,9 @@
         height: 45px;
         font-size: 16px;
     }
+}
+
+@media(max-width:414px) {
 }
 
 @media(max-width:375px) {

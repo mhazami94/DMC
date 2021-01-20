@@ -1,23 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\HP\\Source\\Repos\\DMC\\Services\\Services.csproj": {}
+    "G:\\WorkSpace\\DMC\\Services\\Services.csproj": {}
   },
   "projects": {
-    "C:\\Users\\HP\\Source\\Repos\\DMC\\DTO\\DTO.csproj": {
+    "G:\\WorkSpace\\DMC\\DTO\\DTO.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\HP\\Source\\Repos\\DMC\\DTO\\DTO.csproj",
+        "projectUniqueName": "G:\\WorkSpace\\DMC\\DTO\\DTO.csproj",
         "projectName": "DTO",
-        "projectPath": "C:\\Users\\HP\\Source\\Repos\\DMC\\DTO\\DTO.csproj",
-        "packagesPath": "C:\\Users\\HP\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\HP\\Source\\Repos\\DMC\\DTO\\obj\\",
+        "projectPath": "G:\\WorkSpace\\DMC\\DTO\\DTO.csproj",
+        "packagesPath": "C:\\Users\\mohammad\\.nuget\\packages\\",
+        "outputPath": "G:\\WorkSpace\\DMC\\DTO\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Microsoft\\Xamarin\\NuGet\\"
+          "C:\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\HP\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\mohammad\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
@@ -62,20 +63,21 @@
         }
       }
     },
-    "C:\\Users\\HP\\Source\\Repos\\DMC\\Services\\Services.csproj": {
+    "G:\\WorkSpace\\DMC\\Services\\Services.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\HP\\Source\\Repos\\DMC\\Services\\Services.csproj",
+        "projectUniqueName": "G:\\WorkSpace\\DMC\\Services\\Services.csproj",
         "projectName": "Services",
-        "projectPath": "C:\\Users\\HP\\Source\\Repos\\DMC\\Services\\Services.csproj",
-        "packagesPath": "C:\\Users\\HP\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\HP\\Source\\Repos\\DMC\\Services\\obj\\",
+        "projectPath": "G:\\WorkSpace\\DMC\\Services\\Services.csproj",
+        "packagesPath": "C:\\Users\\mohammad\\.nuget\\packages\\",
+        "outputPath": "G:\\WorkSpace\\DMC\\Services\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Microsoft\\Xamarin\\NuGet\\"
+          "C:\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\HP\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\mohammad\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
@@ -90,8 +92,8 @@
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "C:\\Users\\HP\\Source\\Repos\\DMC\\DTO\\DTO.csproj": {
-                "projectPath": "C:\\Users\\HP\\Source\\Repos\\DMC\\DTO\\DTO.csproj"
+              "G:\\WorkSpace\\DMC\\DTO\\DTO.csproj": {
+                "projectPath": "G:\\WorkSpace\\DMC\\DTO\\DTO.csproj"
               }
             }
           }

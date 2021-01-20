@@ -6,7 +6,6 @@ G:\WorkSpace\DMC\DTO\obj\Debug\netcoreapp3.1\DTO.AssemblyInfo.cs
 G:\WorkSpace\DMC\DTO\obj\Debug\netcoreapp3.1\DTO.csproj.CoreCompileInputs.cache
 G:\WorkSpace\DMC\DTO\obj\Debug\netcoreapp3.1\DTO.dll
 G:\WorkSpace\DMC\DTO\obj\Debug\netcoreapp3.1\DTO.pdb
-G:\WorkSpace\DMC\DTO\obj\Debug\netcoreapp3.1\DTO.csprojAssemblyReference.cache
 C:\Users\HP\Source\Repos\DMC\DTO\bin\Debug\netcoreapp3.1\DTO.deps.json
 C:\Users\HP\Source\Repos\DMC\DTO\bin\Debug\netcoreapp3.1\DTO.dll
 C:\Users\HP\Source\Repos\DMC\DTO\bin\Debug\netcoreapp3.1\DTO.pdb
