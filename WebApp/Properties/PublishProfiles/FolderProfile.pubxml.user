@@ -5,5 +5,7 @@ https://go.microsoft.com/fwlink/?LinkID=208121.
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
     <_PublishTargetUrl>G:\Publish_DMC\20210118</_PublishTargetUrl>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <EncryptedPassword>AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAA9EDFqctGn0+FJVkAsw0uHwAAAAACAAAAAAAQZgAAAAEAACAAAACYQyPcUPAmTyv9ExFCrJjgtwmQq3aSSzoa2wc2gL2jHAAAAAAOgAAAAAIAACAAAAA5cPI91Ax1WYa36yXlKuCfiVH3aj9Eez9aZMmaafch0CAAAACRVe8wj3oiB9GY6qPRdnmtK5UcBogWUY6NNOstJw4y00AAAACic+8RqPD+eePVy9O6pNG18G23kfJR+0yist8Pst82hpN+tWjzHiUpElAJVgYNMlkmFYRE5S1VGLGt+H9MNEkm</EncryptedPassword>
   </PropertyGroup>
 </Project>

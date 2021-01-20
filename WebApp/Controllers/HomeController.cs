@@ -133,7 +133,7 @@ namespace WebApp.Controllers
         {
             var mail = new MailSender();
             mail.SendFormToNewsletter(newsletter, "info@dmcfx.com", "Newsletter Form");
-            return View();
+            return RedirectToAction("Index");
         }
 
         [Route("/Contact")]
