@@ -131,6 +131,7 @@ namespace WebApp.Controllers
         [HttpPost]
         public IActionResult Newsletter(Newsletter newsletter)
         {
+            // there is no newsletter view so get error , i redirect to index action to solve
             var mail = new MailSender();
             mail.SendFormToNewsletter(newsletter, "info@dmcfx.com", "Newsletter Form");
             return RedirectToAction("Index");
