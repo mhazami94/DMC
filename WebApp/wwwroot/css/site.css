@@ -1386,6 +1386,7 @@ option, select {
     height: 45px;
     width: 570px;
     margin: 0 auto;
+    position: relative;
 }
 
 .news-input-btn {
@@ -1436,7 +1437,6 @@ option, select {
 
     .footer-logo > img {
         height: 45px;
-        margin-left: 20px;
     }
 
 .footer-col {
@@ -1606,7 +1606,8 @@ option, select {
 }
 
 .desktop-box {
-    padding: 50px 0
+    padding: 50px 0;
+    display: block;
 }
 
     .desktop-box a {
@@ -1614,6 +1615,9 @@ option, select {
         display: inline-block;
     }
 
+        .desktop-box a img {
+            max-width: 100%;
+        }
 
 .open-account-btn {
     background: #009e29;
@@ -1907,4 +1911,23 @@ option, select {
 
 .economic-text p {
     padding-right: 15px;
+}
+
+
+#res-status {
+    position: absolute;
+    left: 340px;
+    top: 12px;
+}
+#res-status-top {
+    position: absolute;
+    left: 630px;
+    top: 140px;
+}
+.green {
+    color: #009e29;
+}
+
+.red {
+    color: #ff0000;
 }

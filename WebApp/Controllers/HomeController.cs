@@ -4,6 +4,7 @@ using System.Diagnostics;
 using System.Linq;
 using System.Threading.Tasks;
 using DTO;
+using DTO.Utility;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
 using Services.Mail;
@@ -127,15 +128,7 @@ namespace WebApp.Controllers
             return View();
         }
 
-        [Route("/Newsletter")]
-        [HttpPost]
-        public IActionResult Newsletter(Newsletter newsletter)
-        {
-            // there is no newsletter view so get error , i redirect to index action to solve
-            var mail = new MailSender();
-            mail.SendFormToNewsletter(newsletter, "info@dmcfx.com", "Newsletter Form");
-            return RedirectToAction("Index");
-        }
+
 
         [Route("/Contact")]
         public IActionResult Contact()
@@ -159,6 +152,33 @@ namespace WebApp.Controllers
         public IActionResult Glossary()
         {
             return View();
+        }
+
+
+     
+        [Route("/News-Register")]
+        [HttpPost]
+        public IActionResult NewsPost(string mail)
+        {
+            try
+            {
+                var mailSender = new MailSender();
+                if (mail.IsMailAddress())
+                {
+                    var news = new Newsletter
+                    {
+                        Email = mail
+                    };
+                    if (mailSender.SendFormToNewsletter(news, "info@dmcfx.com", "Newsletter Form"))
+                        return Ok(200);
+                }
+                return Ok(500);
+
+            }
+            catch (Exception ex)
+            {
+                return Ok(500);
+            }
         }
     }
 }

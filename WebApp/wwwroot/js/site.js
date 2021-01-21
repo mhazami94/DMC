@@ -112,3 +112,36 @@ window.addEventListener('click', function (e) {
         document.getElementById("lang-bar-sub").classList.remove("dis-block");
     }
 });
+
+
+var news_btn = document.getElementById("news-btn");
+if (news_btn != null && news_btn != undefined) {
+    news_btn.addEventListener("click", function () {
+        var email = document.getElementById("news-input").value;
+        $.post('/News-Register', { mail: email }, function (res) {
+            if (res === 200) {
+                document.getElementById("res-status").classList.add("green");
+                document.querySelector("#res-status > i").classList.add("fa-check");
+                document.getElementById("res-status").classList.remove("red");
+                document.querySelector("#res-status > i").classList.remove("fa-times");
+            } else {
+                document.getElementById("res-status").classList.remove("green");
+                document.querySelector("#res-status > i").classList.remove("fa-check");
+                document.getElementById("res-status").classList.add("red");
+                document.querySelector("#res-status > i").classList.add("fa-times");
+            }
+        })
+    })
+}
+
+var news_btn_top = document.getElementById("news-btn-top");
+if (news_btn_top != null && news_btn_top != undefined) {
+    news_btn_top.addEventListener("click", function () {
+        var email = document.getElementById("news-input-top").value;
+        $.post('/News-Register', { mail: email }, function (res) {
+            if (res === 200) {
+                window.location = window.location;
+            }
+        })
+    })
+}

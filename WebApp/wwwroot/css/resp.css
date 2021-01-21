@@ -237,10 +237,30 @@
     .economic-box {
         display: block;
     }
+
+    .sub-content p {
+        margin-bottom: 50px !important;
+    }
 }
 
 
 @media(max-width:576px) {
+    .footer-logo > img {
+        margin-left: 20px;
+    }
+
+    #signup-flow {
+        display: none;
+    }
+
+    .desktop-box {
+        display: flex;
+    }
+
+        .desktop-box a {
+            margin-right: 10px;
+        }
+
     .register-footer {
         text-align: center;
     }
@@ -293,10 +313,15 @@
 
     .sub-content {
         width: 90%;
+        margin-bottom: 50px;
     }
 
     .company-box {
         display: block;
+    }
+
+    .company-btn-box {
+        float: unset;
     }
 
     .company-text {

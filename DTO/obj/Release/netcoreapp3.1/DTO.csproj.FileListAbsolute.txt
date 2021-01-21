@@ -16,3 +16,12 @@ C:\Users\HP\Source\Repos\DMC\DTO\obj\Release\netcoreapp3.1\DTO.AssemblyInfo.cs
 C:\Users\HP\Source\Repos\DMC\DTO\obj\Release\netcoreapp3.1\DTO.csproj.CoreCompileInputs.cache
 C:\Users\HP\Source\Repos\DMC\DTO\obj\Release\netcoreapp3.1\DTO.dll
 C:\Users\HP\Source\Repos\DMC\DTO\obj\Release\netcoreapp3.1\DTO.pdb
+G:\WorkSpace\DMC-Test\DTO\bin\Release\netcoreapp3.1\DTO.deps.json
+G:\WorkSpace\DMC-Test\DTO\bin\Release\netcoreapp3.1\DTO.dll
+G:\WorkSpace\DMC-Test\DTO\bin\Release\netcoreapp3.1\DTO.pdb
+G:\WorkSpace\DMC-Test\DTO\obj\Release\netcoreapp3.1\DTO.csprojAssemblyReference.cache
+G:\WorkSpace\DMC-Test\DTO\obj\Release\netcoreapp3.1\DTO.AssemblyInfoInputs.cache
+G:\WorkSpace\DMC-Test\DTO\obj\Release\netcoreapp3.1\DTO.AssemblyInfo.cs
+G:\WorkSpace\DMC-Test\DTO\obj\Release\netcoreapp3.1\DTO.csproj.CoreCompileInputs.cache
+G:\WorkSpace\DMC-Test\DTO\obj\Release\netcoreapp3.1\DTO.dll
+G:\WorkSpace\DMC-Test\DTO\obj\Release\netcoreapp3.1\DTO.pdb

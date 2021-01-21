@@ -210,16 +210,15 @@
 </section>
 
 <section class="newsletter">
-    <form method="post" action="/Newsletter">
-        <div class="newsletter-box">
-            <div class="newsletter-input">
-                <input type="text" name="Email" class="news-input" placeholder="E-posta" />
-            </div>
-            <div class="newsletter-btn">
-                <button class="subscribt" type="submit">Email Olarak Gönder</button>
-            </div>
+    <div class="newsletter-box">
+        <div class="newsletter-input">
+            <input type="text" id="news-input-top" name="Email" class="news-input" placeholder="E-posta" />
         </div>
-    </form>
+       
+        <div class="newsletter-btn">
+            <button class="subscribt" id="news-btn-top">Email Olarak Gönder</button>
+        </div>
+    </div>
 </section>
 
 <section class="icons">
@@ -715,8 +714,11 @@
             Bültenimize Abone Olun, Yeni Bilgileri İlk Siz Öğrenin
         </h5>
         <div class="news-inpuy-box">
-            <input class="news-input-bottom" placeholder="E-Posta Adresiniz" />
-            <button class="news-input-btn">GÖNDER</button>
+            <input class="news-input-bottom" id="news-input" placeholder="E-Posta Adresiniz" />
+            <span id="res-status">
+                <i class="fas"></i>
+            </span>
+            <button class="news-input-btn" id="news-btn">GÖNDER</button>
         </div>
     </div>
 </section>
