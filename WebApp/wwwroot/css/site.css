@@ -1436,6 +1436,7 @@ option, select {
 
     .footer-logo > img {
         height: 45px;
+        margin-left: 20px;
     }
 
 .footer-col {
