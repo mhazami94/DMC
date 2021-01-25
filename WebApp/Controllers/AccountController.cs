@@ -21,9 +21,21 @@ namespace WebApp.Controllers
         [AutoValidateAntiforgeryToken]
         public IActionResult AccountTransfer(Customer customer)
         {
-            var mail = new MailSender();
-            mail.SendFormToSupport(customer, "info@dmcfx.com", "Register Account Transfer");
-            return View();
+            try
+            {
+                var mail = new MailSender();
+                if (mail.SendFormToSupport(customer, "info@dmcfx.com", "Register Account Transfer"))
+                {
+                    ViewBag.Status = true;
+                    return View();
+                }
+                throw new Exception();
+            }
+            catch (Exception ex)
+            {
+                ViewBag.Status = false;
+                return View();
+            }
         }
 
         [Route("/open-new-mam")]
@@ -39,9 +51,21 @@ namespace WebApp.Controllers
         [AutoValidateAntiforgeryToken]
         public IActionResult OpenNewMam(Customer customer)
         {
-            var mail = new MailSender();
-            mail.SendFormToSupport(customer, "info@dmcfx.com", "Register Mom Account");
-            return View();
+            try
+            {
+                var mail = new MailSender();
+                if (mail.SendFormToSupport(customer, "info@dmcfx.com", "Register Mom Account"))
+                {
+                    ViewBag.Status = true;
+                    return View();
+                }
+                throw new Exception();
+            }
+            catch (Exception ex)
+            {
+                ViewBag.Status = false;
+                return View();
+            }
         }
 
 
@@ -59,9 +83,21 @@ namespace WebApp.Controllers
         [AutoValidateAntiforgeryToken]
         public IActionResult OpenNewIB(Customer customer)
         {
-            var mail = new MailSender();
-            mail.SendFormToSupport(customer, "info@dmcfx.com", "Register IB Account");
-            return View();
+            try
+            {
+                var mail = new MailSender();
+                if (mail.SendFormToSupport(customer, "info@dmcfx.com", "Register IB Account"))
+                {
+                    ViewBag.Status = true;
+                    return View();
+                }
+                throw new Exception();
+            }
+            catch (Exception ex)
+            {
+                ViewBag.Status = false;
+                return View();
+            }
         }
 
 
@@ -76,9 +112,21 @@ namespace WebApp.Controllers
         [AutoValidateAntiforgeryToken]
         public IActionResult OpenNewReal(Customer customer)
         {
-            var mail = new MailSender();
-            mail.SendFormToSupport(customer, "info@dmcfx.com", "Register Real Account");
-            return View();
+            try
+            {
+                var mail = new MailSender();
+                if (mail.SendFormToSupport(customer, "info@dmcfx.com", "Register Real Account"))
+                {
+                    ViewBag.Status = true;
+                    return View();
+                }
+                throw new Exception();
+            }
+            catch (Exception ex)
+            {
+                ViewBag.Status = false;
+                return View();
+            }
         }
 
         [Route("/open-new-demo")]
@@ -92,9 +140,22 @@ namespace WebApp.Controllers
         [AutoValidateAntiforgeryToken]
         public IActionResult OpenNewDemo(Customer customer)
         {
-            var mail = new MailSender();
-            mail.SendFormToSupport(customer, "info@dmcfx.com", "Register Demo Account");
-            return View();
+            try
+            {
+                var mail = new MailSender();
+                if (mail.SendFormToSupport(customer, "info@dmcfx.com", "Register Demo Account"))
+                {
+                    ViewBag.Status = true;
+                    return View();
+                }
+                throw new Exception();
+            }
+            catch (Exception ex)
+            {
+                ViewBag.Status = false;
+                return View();
+            }
+
         }
     }
 }

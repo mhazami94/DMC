@@ -27,9 +27,21 @@ namespace WebApp.Controllers
         [AutoValidateAntiforgeryToken]
         public IActionResult Register(Customer customer)
         {
-            var mail = new MailSender();
-            mail.SendFormToSupport(customer, "info@dmcfx.com", "Register Form");
-            return View();
+            try
+            {
+                var mail = new MailSender();
+                if (mail.SendFormToSupport(customer, "info@dmcfx.com", "Register Form"))
+                {
+                    ViewBag.Status = true;
+                    return View();
+                }
+                throw new Exception();
+            }
+            catch (Exception ex)
+            {
+                ViewBag.Status = false;
+                return View();
+            }
         }
 
         [Route("/ForgotPassword")]

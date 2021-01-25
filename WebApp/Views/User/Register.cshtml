@@ -28,3 +28,18 @@
     <span>Bir hesabınız var mı?</span>
     <a href="/login">Üye Ol</a>
 </div>
+@{
+    if (ViewBag.Status != null)
+        if ((bool)ViewBag.Status)
+        {
+            <div class="message message-success">
+                Bilgileriniz tarafımıza başarıyla iletilmiştir.<br /> Teşekkürler.
+            </div>
+        }
+        else
+        {
+            <div class="message message-danger">
+                Bilgileriniz iletilmemiştir. <br />Lütfen tekrar formu doldurun.
+            </div>
+        }
+}

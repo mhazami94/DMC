@@ -29,6 +29,21 @@
                     bonuslardan gerçek hesabınızı açarak faydalanmaya başlayabilirsiniz!
                 </p>
             </div>
+            @{
+                if (ViewBag.Status != null)
+                    if ((bool)ViewBag.Status)
+                    {
+                        <div class="message message-success">
+                            Bilgileriniz tarafımıza başarıyla iletilmiştir.<br /> Teşekkürler.
+                        </div>
+                    }
+                    else
+                    {
+                        <div class="message message-danger">
+                            Bilgileriniz iletilmemiştir. <br />Lütfen tekrar formu doldurun.
+                        </div>
+                    }
+            }
         </div>
         <div class="account-form-box">
             <form method="post" action="/open-new-real">
