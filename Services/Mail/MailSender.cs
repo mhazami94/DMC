@@ -35,9 +35,9 @@ namespace Services.Mail
             body.AppendLine($"<td style = 'padding-left:15px;padding-right:15px'>{customer.FirstName} {customer.LastName}</td></tr>");
             body.AppendLine("<tr><td style = 'padding-left:15px;padding-right:15px'> Email :</td>");
             body.AppendLine($"<td style = 'padding-left:15px;padding-right:15px'>{customer.Email}</td></tr>");
-            body.AppendLine("<tr><td style = 'padding-left:15px;padding-right:15px'> Password :</td>");
+            body.AppendLine("<tr><td style = 'padding-left:15px;padding-right:15px'> Telefon :</td>");
             body.AppendLine($"<td style = 'padding-left:15px;padding-right:15px'>{customer.Password}</td></tr>");
-            body.AppendLine("<tr><td style = 'padding-left:15px;padding-right:15px'> Repeat Password :</td>");
+            body.AppendLine("<tr><td style = 'padding-left:15px;padding-right:15px'> Telefon 2:</td>");
             body.AppendLine($"<td style = 'padding-left:15px;padding-right:15px'>{customer.RepeatPassword}</td></tr>");
             body.AppendLine("<tr><td style = 'padding-left:15px;padding-right:15px'> Country :</td>");
             body.AppendLine($"<td style = 'padding-left:15px;padding-right:15px'>{customer.Country}</td></tr></table>");
