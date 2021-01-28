@@ -137,6 +137,32 @@ nav {
     top: 0;
 }
 
+#mask-popup {
+    position: absolute;
+    z-index: 9999;
+    right: 0;
+    left: 0;
+    margin: auto;
+    top: 100px;
+    width: 1080px;
+    height: 1080px;
+    background: #fff;
+    border-radius: 5px;
+}
+
+    #mask-popup > img {
+        width: 100%;
+        height: 100%;
+    }
+
+#close-pop {
+    position: absolute;
+    font-size: 20px;
+    right: 10px;
+    top: 10px;
+    cursor: pointer;
+}
+
 .nav-bar {
     margin: 0 auto;
     width: 1170px;
@@ -1647,6 +1673,7 @@ option, select {
         width: 100%;
         height: 100%;
     }
+
 .company-form {
     flex: 5;
     text-align: right;
@@ -1923,11 +1950,13 @@ option, select {
     left: 340px;
     top: 12px;
 }
+
 #res-status-top {
     position: absolute;
     left: 630px;
     top: 140px;
 }
+
 .green {
     color: #009e29;
 }
@@ -1935,6 +1964,7 @@ option, select {
 .red {
     color: #ff0000;
 }
+
 .message {
     width: 85%;
     margin: auto;
