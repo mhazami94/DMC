@@ -5,6 +5,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using WebApp.AppCode;
 
 namespace WebApp.Controllers
 {
@@ -24,7 +25,7 @@ namespace WebApp.Controllers
             try
             {
                 var mail = new MailSender();
-                if (mail.SendFormToSupport(customer, "info@dmcfx.com", "Register Account Transfer"))
+                if (mail.SendFormToSupport(customer, Consts.ReceiverMail, "Register Account Transfer"))
                 {
                     ViewBag.Status = true;
                     return View();
@@ -54,7 +55,7 @@ namespace WebApp.Controllers
             try
             {
                 var mail = new MailSender();
-                if (mail.SendFormToSupport(customer, "info@dmcfx.com", "Register Mom Account"))
+                if (mail.SendFormToSupport(customer, Consts.ReceiverMail, "Register Mom Account"))
                 {
                     ViewBag.Status = true;
                     return View();
@@ -86,7 +87,7 @@ namespace WebApp.Controllers
             try
             {
                 var mail = new MailSender();
-                if (mail.SendFormToSupport(customer, "info@dmcfx.com", "Register IB Account"))
+                if (mail.SendFormToSupport(customer, Consts.ReceiverMail, "Register IB Account"))
                 {
                     ViewBag.Status = true;
                     return View();
@@ -115,7 +116,7 @@ namespace WebApp.Controllers
             try
             {
                 var mail = new MailSender();
-                if (mail.SendFormToSupport(customer, "info@dmcfx.com", "Register Real Account"))
+                if (mail.SendFormToSupport(customer, Consts.ReceiverMail, "Register Real Account"))
                 {
                     ViewBag.Status = true;
                     return View();
@@ -143,7 +144,7 @@ namespace WebApp.Controllers
             try
             {
                 var mail = new MailSender();
-                if (mail.SendFormToSupport(customer, "info@dmcfx.com", "Register Demo Account"))
+                if (mail.SendFormToSupport(customer, Consts.ReceiverMail, "Register Demo Account"))
                 {
                     ViewBag.Status = true;
                     return View();
