@@ -24,3 +24,12 @@ G:\WorkSpace\DMC-Test\DTO\obj\Debug\netcoreapp3.1\DTO.AssemblyInfo.cs
 G:\WorkSpace\DMC-Test\DTO\obj\Debug\netcoreapp3.1\DTO.csproj.CoreCompileInputs.cache
 G:\WorkSpace\DMC-Test\DTO\obj\Debug\netcoreapp3.1\DTO.dll
 G:\WorkSpace\DMC-Test\DTO\obj\Debug\netcoreapp3.1\DTO.pdb
+C:\Users\met05\Source\Repos\DMC\DTO\bin\Debug\netcoreapp3.1\DTO.deps.json
+C:\Users\met05\Source\Repos\DMC\DTO\bin\Debug\netcoreapp3.1\DTO.dll
+C:\Users\met05\Source\Repos\DMC\DTO\bin\Debug\netcoreapp3.1\DTO.pdb
+C:\Users\met05\Source\Repos\DMC\DTO\obj\Debug\netcoreapp3.1\DTO.csprojAssemblyReference.cache
+C:\Users\met05\Source\Repos\DMC\DTO\obj\Debug\netcoreapp3.1\DTO.AssemblyInfoInputs.cache
+C:\Users\met05\Source\Repos\DMC\DTO\obj\Debug\netcoreapp3.1\DTO.AssemblyInfo.cs
+C:\Users\met05\Source\Repos\DMC\DTO\obj\Debug\netcoreapp3.1\DTO.csproj.CoreCompileInputs.cache
+C:\Users\met05\Source\Repos\DMC\DTO\obj\Debug\netcoreapp3.1\DTO.dll
+C:\Users\met05\Source\Repos\DMC\DTO\obj\Debug\netcoreapp3.1\DTO.pdb

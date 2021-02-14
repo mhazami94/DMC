@@ -145,3 +145,10 @@ if (news_btn_top != null && news_btn_top != undefined) {
         })
     })
 }
+
+var close_pop = document.getElementById("close-pop");
+if (close_pop != null && close_pop != undefined) {
+    close_pop.addEventListener("click", function () {
+        document.getElementById("mask-popup").remove();
+    })
+}
