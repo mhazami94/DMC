@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "tRr/eIv1cuWWJmLEk7CMcbhSkNB+G3I67uyVHDH8NfkKPYA7RGGuqDc7vdY4ANVho/e71cOQemTvALkjWCoF+w==",
+  "dgSpecHash": "me5eQ/6tydJe6vat/m7gvP4tl55630Qo9q359fbgUqK0z6is309IjbPGDAXMls00cP8nQ1Iv9nObZd8DerOzSQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\met05\\Source\\Repos\\DMC\\WebApp\\WebApp.csproj",
+  "projectFilePath": "C:\\Users\\met05\\source\\repos\\DMC\\WebApp\\WebApp.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\met05\\.nuget\\packages\\advancedstringbuilder\\0.1.0\\advancedstringbuilder.0.1.0.nupkg.sha512",
     "C:\\Users\\met05\\.nuget\\packages\\buildbundlerminifier\\3.2.449\\buildbundlerminifier.3.2.449.nupkg.sha512",

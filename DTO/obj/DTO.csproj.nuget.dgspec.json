@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\met05\\Source\\Repos\\DMC\\DTO\\DTO.csproj": {}
+    "C:\\Users\\met05\\source\\repos\\DMC\\DTO\\DTO.csproj": {}
   },
   "projects": {
-    "C:\\Users\\met05\\Source\\Repos\\DMC\\DTO\\DTO.csproj": {
+    "C:\\Users\\met05\\source\\repos\\DMC\\DTO\\DTO.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\met05\\Source\\Repos\\DMC\\DTO\\DTO.csproj",
+        "projectUniqueName": "C:\\Users\\met05\\source\\repos\\DMC\\DTO\\DTO.csproj",
         "projectName": "DTO",
-        "projectPath": "C:\\Users\\met05\\Source\\Repos\\DMC\\DTO\\DTO.csproj",
+        "projectPath": "C:\\Users\\met05\\source\\repos\\DMC\\DTO\\DTO.csproj",
         "packagesPath": "C:\\Users\\met05\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\met05\\Source\\Repos\\DMC\\DTO\\obj\\",
+        "outputPath": "C:\\Users\\met05\\source\\repos\\DMC\\DTO\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\met05\\AppData\\Roaming\\NuGet\\NuGet.Config",

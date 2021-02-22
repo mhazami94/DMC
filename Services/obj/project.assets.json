@@ -32,11 +32,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\met05\\Source\\Repos\\DMC\\Services\\Services.csproj",
+      "projectUniqueName": "C:\\Users\\met05\\source\\repos\\DMC\\Services\\Services.csproj",
       "projectName": "Services",
-      "projectPath": "C:\\Users\\met05\\Source\\Repos\\DMC\\Services\\Services.csproj",
+      "projectPath": "C:\\Users\\met05\\source\\repos\\DMC\\Services\\Services.csproj",
       "packagesPath": "C:\\Users\\met05\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\met05\\Source\\Repos\\DMC\\Services\\obj\\",
+      "outputPath": "C:\\Users\\met05\\source\\repos\\DMC\\Services\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\met05\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -53,8 +53,8 @@
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "projectReferences": {
-            "C:\\Users\\met05\\Source\\Repos\\DMC\\DTO\\DTO.csproj": {
-              "projectPath": "C:\\Users\\met05\\Source\\Repos\\DMC\\DTO\\DTO.csproj"
+            "C:\\Users\\met05\\source\\repos\\DMC\\DTO\\DTO.csproj": {
+              "projectPath": "C:\\Users\\met05\\source\\repos\\DMC\\DTO\\DTO.csproj"
             }
           }
         }
