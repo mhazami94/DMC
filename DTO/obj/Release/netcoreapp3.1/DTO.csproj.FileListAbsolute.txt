@@ -33,3 +33,4 @@ C:\Users\met05\Source\Repos\DMC\DTO\obj\Release\netcoreapp3.1\DTO.AssemblyInfo.c
 C:\Users\met05\Source\Repos\DMC\DTO\obj\Release\netcoreapp3.1\DTO.csproj.CoreCompileInputs.cache
 C:\Users\met05\Source\Repos\DMC\DTO\obj\Release\netcoreapp3.1\DTO.dll
 C:\Users\met05\Source\Repos\DMC\DTO\obj\Release\netcoreapp3.1\DTO.pdb
+G:\WorkSpace\DMC\DTO\obj\Release\netcoreapp3.1\DTO.csprojAssemblyReference.cache
