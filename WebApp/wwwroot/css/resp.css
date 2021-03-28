@@ -5,7 +5,21 @@
     }
 }
 
-@media(max-width:1300px) {
+@media(max-width:1370px) {
+    .nav-bar{
+        width:1170px;
+    }
+    .nav-menu {
+        width: 54.282051%;
+    }
+
+    .logo-box {
+        width: 14%;
+    }
+
+    .menu > li > a {
+        font-size: 12px;
+    }
 }
 
 @media(max-width:1200px) {

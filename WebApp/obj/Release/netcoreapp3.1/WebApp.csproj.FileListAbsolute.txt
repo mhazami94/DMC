@@ -715,3 +715,7 @@ C:\Users\met05\Source\Repos\DMC\WebApp\obj\Release\netcoreapp3.1\WebApp.csproj.C
 C:\Users\met05\Source\Repos\DMC\WebApp\obj\Release\netcoreapp3.1\WebApp.dll
 C:\Users\met05\Source\Repos\DMC\WebApp\obj\Release\netcoreapp3.1\WebApp.pdb
 C:\Users\met05\Source\Repos\DMC\WebApp\obj\Release\netcoreapp3.1\WebApp.genruntimeconfig.cache
+G:\WorkSpace\DMC\WebApp\obj\Release\netcoreapp3.1\Razor\Views\WinningTrader\Index.cshtml.g.cs
+G:\WorkSpace\DMC\WebApp\obj\Release\netcoreapp3.1\Razor\Views\Group\Index.cshtml.g.cs
+G:\WorkSpace\DMC\WebApp\obj\Release\netcoreapp3.1\Razor\Views\WinningTrader\WinningTrader.cshtml.g.cs
+G:\WorkSpace\DMC\WebApp\obj\Release\netcoreapp3.1\Razor\Views\WinningTrader\SignUp.cshtml.g.cs

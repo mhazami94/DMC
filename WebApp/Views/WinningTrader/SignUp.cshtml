@@ -1,0 +1,72 @@
+﻿@model Customer
+@{
+    ViewData["Title"] = "Login";
+    Layout = "~/Views/Shared/_AccountLayout.cshtml";
+}
+
+<section class="account-section">
+    <div class="account-section-box">
+        <div class="account-text-box">
+            <div class="account-text-contatiner">
+                <h1>
+                    WINNING TRADER
+                </h1>
+                <div class="red-line-seprator">
+                    <span></span>
+                </div>
+                <p>
+                    DMC Markets Limited’in Winning Trader gruplarında
+                    seçmiş olduğunuz gruba kayıt yapmak üzeresiniz.
+                </p>
+                <p>
+                    Şimdi yeteneklerinizi kanıtlamanın ve daha ileriye
+                    gitmenin zamanı.
+                </p>
+                <p>
+                    Yarınının inşası için bir adım ileri!
+                </p>
+            </div>
+            @{
+                if (ViewBag.Status != null)
+                    if ((bool)ViewBag.Status)
+                    {
+                        <div class="message message-success">
+                            Bilgileriniz tarafımıza başarıyla iletilmiştir.<br /> Teşekkürler.
+                        </div>
+                    }
+                    else
+                    {
+                        <div class="message message-danger">
+                            Bilgileriniz iletilmemiştir. <br />Lütfen tekrar formu doldurun.
+                        </div>
+                    }
+            }
+        </div>
+        <div class="account-form-box">
+            <form method="post" action="/open-new-real">
+                @Html.AntiForgeryToken()
+                <section class="register-section">
+                    <div class="login-logo">
+                        <img src="/img/DMC_Logo.svg" />
+                    </div>
+                    <h1>
+                        Winning Trader Kayıt Formu
+                    </h1>
+
+                    <input type="text" name="Country" class="login-input" placeholder="İkamet edilen ülke *" />
+                    <input type="text" name="FirstName" class="login-input" placeholder="Adınız *" />
+                    <input type="text" name="LastName" class="login-input" placeholder="Soy Adınız *" />
+                    <input type="text" name="Email" class="login-input" placeholder="E-Posta *" />
+                    <input type="text" name="Password" class="login-input" placeholder="Telefon *" />
+                    @*<input type="text" name="RepeatPassword" class="login-input" placeholder="Telefon 2 *" />*@
+                    <button type="submit" class="login-form-btn">Hesap Oluştur</button>
+                </section>
+                <div class="register-footer text-center">
+                    <span>ya da</span>
+                    <a href="/">Giriş Yap</a>
+                </div>
+            </form>
+        </div>
+    </div>
+</section>
+
