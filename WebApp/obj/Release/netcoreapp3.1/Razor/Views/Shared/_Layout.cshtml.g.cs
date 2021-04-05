@@ -13,21 +13,21 @@ namespace AspNetCore
     using Microsoft.AspNetCore.Mvc.Rendering;
     using Microsoft.AspNetCore.Mvc.ViewFeatures;
 #nullable restore
-#line 1 "G:\WorkSpace\DMC\WebApp\Views\_ViewImports.cshtml"
+#line 1 "C:\WorkSpace\DMC\WebApp\Views\_ViewImports.cshtml"
 using WebApp;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 2 "G:\WorkSpace\DMC\WebApp\Views\_ViewImports.cshtml"
+#line 2 "C:\WorkSpace\DMC\WebApp\Views\_ViewImports.cshtml"
 using WebApp.Models;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 3 "G:\WorkSpace\DMC\WebApp\Views\_ViewImports.cshtml"
+#line 3 "C:\WorkSpace\DMC\WebApp\Views\_ViewImports.cshtml"
 using DTO;
 
 #line default
@@ -84,7 +84,7 @@ using DTO;
             __tagHelperExecutionContext = __tagHelperScopeManager.Begin("head", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "53e6fe58e29a07e55e5d818643383541983009658999", async() => {
                 WriteLiteral("\r\n    <meta charset=\"utf-8\" />\r\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\" />\r\n    <title>");
 #nullable restore
-#line 6 "G:\WorkSpace\DMC\WebApp\Views\Shared\_Layout.cshtml"
+#line 6 "C:\WorkSpace\DMC\WebApp\Views\Shared\_Layout.cshtml"
       Write(ViewData["Title"]);
 
 #line default
@@ -194,6 +194,7 @@ using DTO;
             WriteLiteral("\r\n");
             __tagHelperExecutionContext = __tagHelperScopeManager.Begin("body", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "53e6fe58e29a07e55e5d8186433835419830096517225", async() => {
                 WriteLiteral("\r\n");
+                WriteLiteral("    <div id=\"mask-popup\">\r\n            <span id=\"close-pop\">\r\n                <i class=\"fas fa-times\"></i>\r\n            </span>\r\n            <img src=\"/img/bilgi2.png\" />\r\n        </div>\r\n");
                 WriteLiteral(@"    <header>
         <nav>
             <div class=""nav-bar"" id=""nav-bar"">
