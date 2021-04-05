@@ -231,7 +231,6 @@ C:\WorkSpace\DMC\WebApp\obj\Release\netcoreapp3.1\WebApp.TagHelpers.output.cache
 C:\WorkSpace\DMC\WebApp\obj\Release\netcoreapp3.1\WebApp.RazorCoreGenerate.cache
 C:\WorkSpace\DMC\WebApp\obj\Release\netcoreapp3.1\Razor\Views\Account\AccountTransfer.cshtml.g.cs
 C:\WorkSpace\DMC\WebApp\obj\Release\netcoreapp3.1\Razor\Views\Account\OpenNewDemo.cshtml.g.cs
-C:\WorkSpace\DMC\WebApp\obj\Release\netcoreapp3.1\Razor\Views\Account\OpenNewMom.cshtml.g.cs
 C:\WorkSpace\DMC\WebApp\obj\Release\netcoreapp3.1\Razor\Views\Account\OpenNewReal.cshtml.g.cs
 C:\WorkSpace\DMC\WebApp\obj\Release\netcoreapp3.1\Razor\Views\Home\AboutUs.cshtml.g.cs
 C:\WorkSpace\DMC\WebApp\obj\Release\netcoreapp3.1\Razor\Views\Home\Campaigns.cshtml.g.cs
@@ -719,3 +718,16 @@ G:\WorkSpace\DMC\WebApp\obj\Release\netcoreapp3.1\Razor\Views\WinningTrader\Inde
 G:\WorkSpace\DMC\WebApp\obj\Release\netcoreapp3.1\Razor\Views\Group\Index.cshtml.g.cs
 G:\WorkSpace\DMC\WebApp\obj\Release\netcoreapp3.1\Razor\Views\WinningTrader\WinningTrader.cshtml.g.cs
 G:\WorkSpace\DMC\WebApp\obj\Release\netcoreapp3.1\Razor\Views\WinningTrader\SignUp.cshtml.g.cs
+C:\WorkSpace\DMC\WebApp\bin\Release\netcoreapp3.1\DTO.dll
+C:\WorkSpace\DMC\WebApp\bin\Release\netcoreapp3.1\Services.dll
+C:\WorkSpace\DMC\WebApp\bin\Release\netcoreapp3.1\DTO.pdb
+C:\WorkSpace\DMC\WebApp\bin\Release\netcoreapp3.1\Services.pdb
+C:\WorkSpace\DMC\WebApp\obj\Release\netcoreapp3.1\Razor\Views\Account\OpenNewIB.cshtml.g.cs
+C:\WorkSpace\DMC\WebApp\obj\Release\netcoreapp3.1\Razor\Views\Account\OpenNewMam.cshtml.g.cs
+C:\WorkSpace\DMC\WebApp\obj\Release\netcoreapp3.1\Razor\Views\Group\Index.cshtml.g.cs
+C:\WorkSpace\DMC\WebApp\obj\Release\netcoreapp3.1\Razor\Views\Home\DailyBulletin.cshtml.g.cs
+C:\WorkSpace\DMC\WebApp\obj\Release\netcoreapp3.1\Razor\Views\Home\EconomicCalendar.cshtml.g.cs
+C:\WorkSpace\DMC\WebApp\obj\Release\netcoreapp3.1\Razor\Views\Home\Glossary.cshtml.g.cs
+C:\WorkSpace\DMC\WebApp\obj\Release\netcoreapp3.1\Razor\Views\WinningTrader\Index.cshtml.g.cs
+C:\WorkSpace\DMC\WebApp\obj\Release\netcoreapp3.1\Razor\Views\WinningTrader\SignUp.cshtml.g.cs
+C:\WorkSpace\DMC\WebApp\obj\Release\netcoreapp3.1\Razor\Views\WinningTrader\WinningTrader.cshtml.g.cs

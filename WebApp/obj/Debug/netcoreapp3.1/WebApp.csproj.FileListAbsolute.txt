@@ -257,7 +257,6 @@ C:\WorkSpace\DMC\WebApp\bin\Debug\netcoreapp3.1\WebMarkupMin.AspNetCore3.dll
 C:\WorkSpace\DMC\WebApp\bin\Debug\netcoreapp3.1\WebMarkupMin.Core.dll
 C:\WorkSpace\DMC\WebApp\obj\Debug\netcoreapp3.1\Razor\Views\Account\AccountTransfer.cshtml.g.cs
 C:\WorkSpace\DMC\WebApp\obj\Debug\netcoreapp3.1\Razor\Views\Account\OpenNewDemo.cshtml.g.cs
-C:\WorkSpace\DMC\WebApp\obj\Debug\netcoreapp3.1\Razor\Views\Account\OpenNewMom.cshtml.g.cs
 C:\WorkSpace\DMC\WebApp\obj\Debug\netcoreapp3.1\Razor\Views\Account\OpenNewReal.cshtml.g.cs
 C:\WorkSpace\DMC\WebApp\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_AccountLayout.cshtml.g.cs
 C:\WorkSpace\DMC\WebApp\obj\Debug\netcoreapp3.1\Razor\Views\User\ForgotPassword.cshtml.g.cs
@@ -715,3 +714,17 @@ C:\Users\met05\Source\Repos\DMC\WebApp\obj\Debug\netcoreapp3.1\WebApp.csproj.Cop
 C:\Users\met05\Source\Repos\DMC\WebApp\obj\Debug\netcoreapp3.1\WebApp.dll
 C:\Users\met05\Source\Repos\DMC\WebApp\obj\Debug\netcoreapp3.1\WebApp.pdb
 C:\Users\met05\Source\Repos\DMC\WebApp\obj\Debug\netcoreapp3.1\WebApp.genruntimeconfig.cache
+C:\WorkSpace\DMC\WebApp\bin\Debug\netcoreapp3.1\DTO.dll
+C:\WorkSpace\DMC\WebApp\bin\Debug\netcoreapp3.1\Services.dll
+C:\WorkSpace\DMC\WebApp\bin\Debug\netcoreapp3.1\DTO.pdb
+C:\WorkSpace\DMC\WebApp\bin\Debug\netcoreapp3.1\Services.pdb
+C:\WorkSpace\DMC\WebApp\obj\Debug\netcoreapp3.1\Razor\Views\Account\OpenNewIB.cshtml.g.cs
+C:\WorkSpace\DMC\WebApp\obj\Debug\netcoreapp3.1\Razor\Views\Account\OpenNewMam.cshtml.g.cs
+C:\WorkSpace\DMC\WebApp\obj\Debug\netcoreapp3.1\Razor\Views\Group\Index.cshtml.g.cs
+C:\WorkSpace\DMC\WebApp\obj\Debug\netcoreapp3.1\Razor\Views\Home\DailyBulletin.cshtml.g.cs
+C:\WorkSpace\DMC\WebApp\obj\Debug\netcoreapp3.1\Razor\Views\Home\EconomicCalendar.cshtml.g.cs
+C:\WorkSpace\DMC\WebApp\obj\Debug\netcoreapp3.1\Razor\Views\Home\Glossary.cshtml.g.cs
+C:\WorkSpace\DMC\WebApp\obj\Debug\netcoreapp3.1\Razor\Views\WinningTrader\Index.cshtml.g.cs
+C:\WorkSpace\DMC\WebApp\obj\Debug\netcoreapp3.1\Razor\Views\WinningTrader\SignUp.cshtml.g.cs
+C:\WorkSpace\DMC\WebApp\obj\Debug\netcoreapp3.1\Razor\Views\WinningTrader\WinningTrader.cshtml.g.cs
+C:\WorkSpace\DMC\WebApp\bin\Debug\netcoreapp3.1\companyInfo.json

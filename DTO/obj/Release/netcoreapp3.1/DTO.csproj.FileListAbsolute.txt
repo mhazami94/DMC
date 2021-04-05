@@ -34,3 +34,11 @@ C:\Users\met05\Source\Repos\DMC\DTO\obj\Release\netcoreapp3.1\DTO.csproj.CoreCom
 C:\Users\met05\Source\Repos\DMC\DTO\obj\Release\netcoreapp3.1\DTO.dll
 C:\Users\met05\Source\Repos\DMC\DTO\obj\Release\netcoreapp3.1\DTO.pdb
 G:\WorkSpace\DMC\DTO\obj\Release\netcoreapp3.1\DTO.csprojAssemblyReference.cache
+C:\WorkSpace\DMC\DTO\bin\Release\netcoreapp3.1\DTO.deps.json
+C:\WorkSpace\DMC\DTO\bin\Release\netcoreapp3.1\DTO.dll
+C:\WorkSpace\DMC\DTO\bin\Release\netcoreapp3.1\DTO.pdb
+C:\WorkSpace\DMC\DTO\obj\Release\netcoreapp3.1\DTO.AssemblyInfoInputs.cache
+C:\WorkSpace\DMC\DTO\obj\Release\netcoreapp3.1\DTO.AssemblyInfo.cs
+C:\WorkSpace\DMC\DTO\obj\Release\netcoreapp3.1\DTO.csproj.CoreCompileInputs.cache
+C:\WorkSpace\DMC\DTO\obj\Release\netcoreapp3.1\DTO.dll
+C:\WorkSpace\DMC\DTO\obj\Release\netcoreapp3.1\DTO.pdb

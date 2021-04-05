@@ -1,0 +1,204 @@
+{
+  "datalar": {
+    "data": [
+      {
+        "@tip": "AUDCAD",
+        "ad": "AUDCAD",
+        "satis": "0.95663",
+        "alis": "0.95706"
+      },
+      {
+        "@tip": "AUDCHF",
+        "ad": "AUDCHF",
+        "satis": "0.71772",
+        "alis": "0.71819"
+      },
+      {
+        "@tip": "AUDJPY",
+        "ad": "AUDJPY",
+        "satis": "84.329",
+        "alis": "84.366"
+      },
+      {
+        "@tip": "AUDNZD",
+        "ad": "AUDNZD",
+        "satis": "1.08221",
+        "alis": "1.08274"
+      },
+      {
+        "@tip": "AUDUSD",
+        "ad": "AUDUSD",
+        "satis": "0.76347",
+        "alis": "0.76364"
+      },
+      {
+        "@tip": "CADJPY",
+        "ad": "CADJPY",
+        "satis": "88.133",
+        "alis": "88.17"
+      },
+      {
+        "@tip": "CHFJPY",
+        "ad": "CHFJPY",
+        "satis": "117.465",
+        "alis": "117.5"
+      },
+      {
+        "@tip": "EURAUD",
+        "ad": "EURAUD",
+        "satis": "1.5425",
+        "alis": "1.54295"
+      },
+      {
+        "@tip": "EURCAD",
+        "ad": "EURCAD",
+        "satis": "1.47599",
+        "alis": "1.47637"
+      },
+      {
+        "@tip": "EURCHF",
+        "ad": "EURCHF",
+        "satis": "1.10752",
+        "alis": "1.10774"
+      },
+      {
+        "@tip": "EURGBP",
+        "ad": "EURGBP",
+        "satis": "0.84878",
+        "alis": "0.84897"
+      },
+      {
+        "@tip": "EURHUF",
+        "ad": "EURHUF",
+        "satis": "360.345",
+        "alis": "360.527"
+      },
+      {
+        "@tip": "EURJPY",
+        "ad": "EURJPY",
+        "satis": "130.115",
+        "alis": "130.138"
+      },
+      {
+        "@tip": "EURNOK",
+        "ad": "EURNOK",
+        "satis": "10.04428",
+        "alis": "10.04802"
+      },
+      {
+        "@tip": "EURPLN",
+        "ad": "EURPLN",
+        "satis": "4.5857",
+        "alis": "4.58885"
+      },
+      {
+        "@tip": "EURTRY",
+        "ad": "EURTRY",
+        "satis": "9.56338",
+        "alis": "9.57617"
+      },
+      {
+        "@tip": "EURUSD",
+        "ad": "EURUSD",
+        "satis": "1.17789",
+        "alis": "1.17802"
+      },
+      {
+        "@tip": "GBPCAD",
+        "ad": "GBPCAD",
+        "satis": "1.73865",
+        "alis": "1.73925"
+      },
+      {
+        "@tip": "GBPCHF",
+        "ad": "GBPCHF",
+        "satis": "1.30456",
+        "alis": "1.30502"
+      },
+      {
+        "@tip": "GBPJPY",
+        "ad": "GBPJPY",
+        "satis": "153.273",
+        "alis": "153.311"
+      },
+      {
+        "@tip": "GBPUSD",
+        "ad": "GBPUSD",
+        "satis": "1.38757",
+        "alis": "1.38776"
+      },
+      {
+        "@tip": "NZDUSD",
+        "ad": "NZDUSD",
+        "satis": "0.70523",
+        "alis": "0.70553"
+      },
+      {
+        "@tip": "USDCAD",
+        "ad": "USDCAD",
+        "satis": "1.25305",
+        "alis": "1.25327"
+      },
+      {
+        "@tip": "USDCHF",
+        "ad": "USDCHF",
+        "satis": "0.94021",
+        "alis": "0.94036"
+      },
+      {
+        "@tip": "USDHUF",
+        "ad": "USDHUF",
+        "satis": "305.928",
+        "alis": "306.082"
+      },
+      {
+        "@tip": "USDJPY",
+        "ad": "USDJPY",
+        "satis": "110.46",
+        "alis": "110.476"
+      },
+      {
+        "@tip": "USDMXN",
+        "ad": "USDMXN",
+        "satis": "20.24694",
+        "alis": "20.25504"
+      },
+      {
+        "@tip": "USDNOK",
+        "ad": "USDNOK",
+        "satis": "8.52638",
+        "alis": "8.53042"
+      },
+      {
+        "@tip": "USDPLN",
+        "ad": "USDPLN",
+        "satis": "3.89251",
+        "alis": "3.89556"
+      },
+      {
+        "@tip": "USDTRY",
+        "ad": "USDTRY",
+        "satis": "8.11467",
+        "alis": "8.12219"
+      },
+      {
+        "@tip": "USDZAR",
+        "ad": "USDZAR",
+        "satis": "14.59839",
+        "alis": "14.60474"
+      },
+      {
+        "@tip": "XAUUSD",
+        "ad": "XAUUSD",
+        "satis": "1723.85",
+        "alis": "1724.34"
+      },
+      {
+        "@tip": "XAGUSD",
+        "ad": "XAGUSD",
+        "satis": "24.95",
+        "alis": "24.971"
+      }
+    ]
+  }
+}

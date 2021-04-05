@@ -5,8 +5,11 @@ using System.Linq;
 using System.Threading.Tasks;
 using DTO;
 using DTO.Utility;
+using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
+using Newtonsoft.Json;
+using Services.FXServices;
 using Services.Mail;
 using WebApp.Models;
 
@@ -21,7 +24,7 @@ namespace WebApp.Controllers
             _logger = logger;
         }
 
-        public IActionResult Index()
+        public async Task<IActionResult> Index()
         {
             return View();
         }
@@ -155,7 +158,7 @@ namespace WebApp.Controllers
         }
 
 
-     
+
         [Route("/News-Register")]
         [HttpPost]
         public IActionResult NewsPost(string mail)
