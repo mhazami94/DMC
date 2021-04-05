@@ -719,3 +719,4 @@ G:\WorkSpace\DMC\WebApp\obj\Release\netcoreapp3.1\Razor\Views\WinningTrader\Inde
 G:\WorkSpace\DMC\WebApp\obj\Release\netcoreapp3.1\Razor\Views\Group\Index.cshtml.g.cs
 G:\WorkSpace\DMC\WebApp\obj\Release\netcoreapp3.1\Razor\Views\WinningTrader\WinningTrader.cshtml.g.cs
 G:\WorkSpace\DMC\WebApp\obj\Release\netcoreapp3.1\Razor\Views\WinningTrader\SignUp.cshtml.g.cs
+G:\WorkSpace\DMC\WebApp\obj\Release\netcoreapp3.1\Razor\Views\FX\Index.cshtml.g.cs

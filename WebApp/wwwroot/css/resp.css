@@ -171,7 +171,6 @@
         overflow: hidden;
         margin: 20px auto 0 auto;
         border-radius: 4px;
-        margin-bottom: 500px;
     }
 
     .mobile-box {
@@ -745,8 +744,6 @@
         background: #000000;
     }
 }
-
-
 
 @media(max-width:540px) {
     .icons-item {
