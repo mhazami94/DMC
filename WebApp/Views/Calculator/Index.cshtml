@@ -1,6 +1,6 @@
 ﻿
 @{
-    ViewData["Title"] = "Index";
+    ViewData["Title"] = "Calculator";
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
 
@@ -27,21 +27,35 @@
         <div class="form-input-row">
             <div class="input-box-group">
                 <label>
-                    Alış / Satış
+                    Kaldıraç
                 </label>
-                <select class="fx-input">
+                <select class="fx-input-count">
                     <option>Seçiniz</option>
                     <option>Alış</option>
                     <option>Satış</option>
                 </select>
+                <label class="fx-input-count-lable">
+                    veya
+                </label>
+                <input type="number" class="fx-input-count-other" />
             </div>
             <div class="input-box-group">
-                <label>Parite Adı</label>
-                <select class="fx-input">
-                    <option>Seçiniz</option>
-                </select>
+                <label>Hacim Lot</label>
+                <div class="fx-Hacim-input-box">
+                    <input class="fx-input" max="100" value="1" min="1" id="rangeValue" />
+                    <input type="range" id="myRange" min="1" value="1" max="100" class="" />
+                </div>
             </div>
         </div>
     </div>
 </section>
 
+<script>
+    document.getElementById("myRange").addEventListener("input", function () {
+        document.getElementById("rangeValue").value = this.value;
+    })
+    document.getElementById("myRange").oninput = function () {
+        var value = (this.value - this.min) / (this.max - this.min) * 100
+        this.style.background = 'linear-gradient(to right, #e2211c 0%, #e2211c ' + value + '%, #fff ' + value + '%, white 100%)'
+    };
+</script>

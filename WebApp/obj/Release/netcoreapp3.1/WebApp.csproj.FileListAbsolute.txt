@@ -718,9 +718,6 @@ G:\WorkSpace\DMC\WebApp\obj\Release\netcoreapp3.1\Razor\Views\WinningTrader\Inde
 G:\WorkSpace\DMC\WebApp\obj\Release\netcoreapp3.1\Razor\Views\Group\Index.cshtml.g.cs
 G:\WorkSpace\DMC\WebApp\obj\Release\netcoreapp3.1\Razor\Views\WinningTrader\WinningTrader.cshtml.g.cs
 G:\WorkSpace\DMC\WebApp\obj\Release\netcoreapp3.1\Razor\Views\WinningTrader\SignUp.cshtml.g.cs
-
-G:\WorkSpace\DMC\WebApp\obj\Release\netcoreapp3.1\Razor\Views\FX\Index.cshtml.g.cs
-
 C:\WorkSpace\DMC\WebApp\bin\Release\netcoreapp3.1\DTO.dll
 C:\WorkSpace\DMC\WebApp\bin\Release\netcoreapp3.1\Services.dll
 C:\WorkSpace\DMC\WebApp\bin\Release\netcoreapp3.1\DTO.pdb
@@ -734,3 +731,5 @@ C:\WorkSpace\DMC\WebApp\obj\Release\netcoreapp3.1\Razor\Views\Home\Glossary.csht
 C:\WorkSpace\DMC\WebApp\obj\Release\netcoreapp3.1\Razor\Views\WinningTrader\Index.cshtml.g.cs
 C:\WorkSpace\DMC\WebApp\obj\Release\netcoreapp3.1\Razor\Views\WinningTrader\SignUp.cshtml.g.cs
 C:\WorkSpace\DMC\WebApp\obj\Release\netcoreapp3.1\Razor\Views\WinningTrader\WinningTrader.cshtml.g.cs
+G:\WorkSpace\DMC\WebApp\bin\Release\netcoreapp3.1\companyInfo.json
+G:\WorkSpace\DMC\WebApp\obj\Release\netcoreapp3.1\Razor\Views\Calculator\Index.cshtml.g.cs
