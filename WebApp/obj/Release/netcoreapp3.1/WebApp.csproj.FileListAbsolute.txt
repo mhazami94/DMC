@@ -733,3 +733,8 @@ C:\WorkSpace\DMC\WebApp\obj\Release\netcoreapp3.1\Razor\Views\WinningTrader\Sign
 C:\WorkSpace\DMC\WebApp\obj\Release\netcoreapp3.1\Razor\Views\WinningTrader\WinningTrader.cshtml.g.cs
 G:\WorkSpace\DMC\WebApp\bin\Release\netcoreapp3.1\companyInfo.json
 G:\WorkSpace\DMC\WebApp\obj\Release\netcoreapp3.1\Razor\Views\Calculator\Index.cshtml.g.cs
+C:\WorkSpace\DMC\WebApp\bin\Release\netcoreapp3.1\companyInfo.json
+C:\WorkSpace\DMC\WebApp\obj\Release\netcoreapp3.1\Razor\Views\Calculator\Index.cshtml.g.cs
+C:\WorkSpace\DMC\WebApp\bin\Release\netcoreapp3.1\Azami.Utility.dll
+C:\WorkSpace\DMC\WebApp\bin\Release\netcoreapp3.1\Azami.Utility.pdb
+C:\WorkSpace\DMC\WebApp\bin\Release\netcoreapp3.1\fa-IR\Azami.Utility.resources.dll

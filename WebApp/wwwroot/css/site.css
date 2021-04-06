@@ -25,6 +25,10 @@ footer, header, hgroup, menu, nav, section {
     display: block;
 }
 
+section {
+    overflow: hidden;
+}
+
 .sp-line {
     height: 1px;
     width: 1170px;
@@ -617,6 +621,7 @@ nav {
 .items-line {
     padding: 100px 0;
     max-height: 370px;
+    overflow: hidden;
 }
 
 .items-line-box {
@@ -2537,3 +2542,58 @@ input[type="range"] {
         background-color: #e2211c;
         color: #e2211c
     }
+
+.sending-price {
+    text-align: right;
+    margin-bottom: 30px;
+    width: 100%;
+}
+
+.sending-price-link {
+    color: #e2211c;
+    margin-right: 2%;
+    display: inline-block;
+}
+
+.calculator-btn-box {
+    text-align: right;
+    margin-bottom: 50px;
+    width: 100%;
+}
+
+.calculator-btn {
+    border: none;
+    height: 50px;
+    width: 33.00940170940171%;
+    border-radius: 34px;
+    color: #fff;
+    background-color: #e2211c;
+    margin-right: 2%;
+    outline: none;
+    cursor: pointer;
+}
+
+.calculator-result-section {
+    width: 100%;
+    direction: rtl;
+    margin-bottom: 70px;
+}
+
+.calculator-result-box {
+    width: 33.00940170940171%;
+    margin-right: 2%;
+    display: flex;
+    flex-direction: column;
+}
+
+.calculator-result-row {
+    width: 100%;
+    display: flex;
+    direction: ltr;
+    margin-bottom: 30px;
+}
+
+.calculator-result-lable {
+    max-width: 50%;
+    flex: 0 0 50%;
+}

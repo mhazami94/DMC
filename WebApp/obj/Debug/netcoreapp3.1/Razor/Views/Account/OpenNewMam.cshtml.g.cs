@@ -33,8 +33,15 @@ using DTO;
 #line default
 #line hidden
 #nullable disable
+#nullable restore
+#line 4 "C:\WorkSpace\DMC\WebApp\Views\_ViewImports.cshtml"
+using Azami.Utility;
+
+#line default
+#line hidden
+#nullable disable
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"93441a3e6e9bbe7350ba7d38d3e59fa8cde61c6f", @"/Views/Account/OpenNewMam.cshtml")]
-    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"168f1340921e84f777b89e37f16f69dab2477aa8", @"/Views/_ViewImports.cshtml")]
+    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"3f3ed0e6021b89a17849a10930e0472b87579903", @"/Views/_ViewImports.cshtml")]
     public class Views_Account_OpenNewMam : global::Microsoft.AspNetCore.Mvc.Razor.RazorPage<dynamic>
     {
         private static readonly global::Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute __tagHelperAttribute_0 = new global::Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute("method", "post", global::Microsoft.AspNetCore.Razor.TagHelpers.HtmlAttributeValueStyle.DoubleQuotes);
@@ -128,7 +135,7 @@ using DTO;
 #line hidden
 #nullable disable
             WriteLiteral("        </div>\r\n        <div class=\"account-form-box\">\r\n            ");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("form", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "93441a3e6e9bbe7350ba7d38d3e59fa8cde61c6f6722", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("form", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "93441a3e6e9bbe7350ba7d38d3e59fa8cde61c6f6874", async() => {
                 WriteLiteral(@"
                 <section class=""register-section"">
                     <div class=""login-logo"">

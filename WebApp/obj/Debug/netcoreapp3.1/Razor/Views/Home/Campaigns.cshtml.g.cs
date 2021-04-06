@@ -33,8 +33,15 @@ using DTO;
 #line default
 #line hidden
 #nullable disable
+#nullable restore
+#line 4 "C:\WorkSpace\DMC\WebApp\Views\_ViewImports.cshtml"
+using Azami.Utility;
+
+#line default
+#line hidden
+#nullable disable
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"65fc712c701ffd91f2323d0bb8765f45e94568d4", @"/Views/Home/Campaigns.cshtml")]
-    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"168f1340921e84f777b89e37f16f69dab2477aa8", @"/Views/_ViewImports.cshtml")]
+    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"3f3ed0e6021b89a17849a10930e0472b87579903", @"/Views/_ViewImports.cshtml")]
     public class Views_Home_Campaigns : global::Microsoft.AspNetCore.Mvc.Razor.RazorPage<Customer>
     {
         private static readonly global::Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute __tagHelperAttribute_0 = new global::Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute("method", "post", global::Microsoft.AspNetCore.Razor.TagHelpers.HtmlAttributeValueStyle.DoubleQuotes);
@@ -74,7 +81,7 @@ using DTO;
 #line hidden
 #nullable disable
             WriteLiteral("\r\n\r\n<section class=\"sub-header\">\r\n    <div class=\"sub-img\">\r\n        <img src=\"/img/sub/Campaing.jpg\" />\r\n        <h1>KAMPANYALAR</h1>\r\n    </div>\r\n</section>\r\n");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("form", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "65fc712c701ffd91f2323d0bb8765f45e94568d44321", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("form", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "65fc712c701ffd91f2323d0bb8765f45e94568d44473", async() => {
                 WriteLiteral(@"
     <section class=""sub-content"">
         <div class=""sub-seprator"">

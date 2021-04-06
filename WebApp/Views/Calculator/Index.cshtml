@@ -11,15 +11,12 @@
                 <label>
                     Alış / Satış
                 </label>
-                <select class="fx-input">
-                    <option>Seçiniz</option>
-                    <option>Alış</option>
-                    <option>Satış</option>
+                <select class="fx-input" id="calculatorType" asp-items="(SelectList)ViewBag.CalculatorType">
                 </select>
             </div>
             <div class="input-box-group">
                 <label>Parite Adı</label>
-                <select class="fx-input">
+                <select class="fx-input" id="tips" asp-items="(SelectList)ViewBag.Tips">
                     <option>Seçiniz</option>
                 </select>
             </div>
@@ -29,15 +26,19 @@
                 <label>
                     Kaldıraç
                 </label>
-                <select class="fx-input-count">
-                    <option>Seçiniz</option>
-                    <option>Alış</option>
-                    <option>Satış</option>
+                <select class="fx-input-count" id="lever">
+                    <option value="1">1</option>
+                    <option value="5">5</option>
+                    <option value="10">10</option>
+                    <option value="33">33</option>
+                    <option value="50">50</option>
+                    <option value="75">75</option>
+                    <option value="100">100</option>
                 </select>
                 <label class="fx-input-count-lable">
                     veya
                 </label>
-                <input type="number" class="fx-input-count-other" />
+                <input type="number" id="lever-other" class="fx-input-count-other" />
             </div>
             <div class="input-box-group">
                 <label>Hacim Lot</label>
@@ -47,15 +48,123 @@
                 </div>
             </div>
         </div>
+        <div class="form-input-row">
+            <div class="input-box-group">
+                <label>
+                    İşleme Giriş Fiyatı
+                </label>
+                <input class="fx-input" id="startPrice" />
+            </div>
+            <div class="input-box-group">
+                <label>
+                    Piyasa (Hedef) Fiyatı
+                </label>
+                <input class="fx-input" id="currentPrice" />
+            </div>
+        </div>
+
+        <div class="sending-price">
+            <a class="sending-price-link" href="#">
+                Fiyatı Güncelle
+            </a>
+        </div>
+        <div class="calculator-btn-box">
+            <button id="calculator-btn" class="calculator-btn">HESAPLA</button>
+        </div>
+        <div class="calculator-result-section">
+            <div class="calculator-result-box">
+                <div class="calculator-result-row">
+                    <div class="calculator-result-lable">
+                        Gerekli Teminat
+                    </div>
+                    <div id="teminat" class="calculator-result-value">
+                        : $
+                    </div>
+                </div>
+                <div class="calculator-result-row">
+                    <div class="calculator-result-lable">
+                        Pips'lik Değişim
+                    </div>
+                    <div id="Pips" class="calculator-result-value">
+                        : $
+                    </div>
+                </div>
+                <div class="calculator-result-row">
+                    <div class="calculator-result-lable">
+                        Kâr / Zarar Tutarı
+                    </div>
+                    <div id="Zarar" class="calculator-result-value">
+                        : $
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
 </section>
+@section Scripts{
 
+}
 <script>
+
+
+    document.getElementById("calculator-btn").addEventListener("click", function () {
+        getTeminat()
+    })
+    function getTeminat() {
+        var type = document.getElementById("calculatorType").value;
+        var tip = document.getElementById("tips").value;
+        var lever = document.getElementById("lever").value;
+        var lever_other = document.getElementById("lever-other").value;
+        // var startPrice = document.getElementById("startPrice").value;
+        var P1 = document.getElementById("currentPrice").value;
+        var V = document.getElementById("rangeValue").value;
+
+        var L;
+        switch (tip) {
+            case "XAUUSD": L = "100";
+                break;
+            case "XAGUSD": L = "5000";
+                break;
+            default: L = "100000";
+        }
+        var firstPortionOfParite = tip.slice(0, 3)
+        var lastPortionOfParite = tip.slice(3, 6)
+        var K;
+        if (lever == "" && lever_other == "") {
+            alert("Lütfen Kaldıraç Değeri Seçiniz veya Özel Bir Kaldıraç Değeri Giriniz");
+            return false;
+        }
+        if (lever != "" && lever_other == "") {
+            K = parseFloat(lever);
+        }
+        else if (lever == "" && lever_other != "") {
+            K = parseFloat(lever_other);
+        }
+        else {
+            alert("Lütfen Kaldıraç Değeri Seçiniz veya Özel Bir Kaldıraç Değeri Giriniz")
+            return false;
+        }
+        var resultbox = document.getElementById("teminat");
+        if (lastPortionOfParite == "USD") {
+            var result = (P1 * V * L) / K;
+            resultbox.innerText = ": " + result + "$";
+        }
+        else if (firstPortionOfParite == "USD") {
+            var result = V * L / K;
+            resultbox.innerText = ": " + result + "$";
+        } else {
+            $.get('/Calculaor/Result', { type: type, unit: lastPortionOfParite, range: V, L: L, K: K }, function (d) {
+                resultbox.innerText = ": " + d + "$";
+            });
+        }
+        setTimeout(function () { getTeminat(); }, 5000);
+    }
+
     document.getElementById("myRange").addEventListener("input", function () {
         document.getElementById("rangeValue").value = this.value;
-    })
-    document.getElementById("myRange").oninput = function () {
-        var value = (this.value - this.min) / (this.max - this.min) * 100
-        this.style.background = 'linear-gradient(to right, #e2211c 0%, #e2211c ' + value + '%, #fff ' + value + '%, white 100%)'
-    };
+    });
+    document.getElementById("rangeValue").addEventListener("input", function () {
+        document.getElementById("myRange").value = this.value;
+    });
+
 </script>

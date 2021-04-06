@@ -33,8 +33,15 @@ using DTO;
 #line default
 #line hidden
 #nullable disable
+#nullable restore
+#line 4 "C:\WorkSpace\DMC\WebApp\Views\_ViewImports.cshtml"
+using Azami.Utility;
+
+#line default
+#line hidden
+#nullable disable
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"e19ef4ae8d55b5ffa9fc8e1e7d30d2fed9fe8b93", @"/Views/User/ForgotPassword.cshtml")]
-    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"168f1340921e84f777b89e37f16f69dab2477aa8", @"/Views/_ViewImports.cshtml")]
+    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"3f3ed0e6021b89a17849a10930e0472b87579903", @"/Views/_ViewImports.cshtml")]
     public class Views_User_ForgotPassword : global::Microsoft.AspNetCore.Mvc.Razor.RazorPage<dynamic>
     {
         private static readonly global::Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute __tagHelperAttribute_0 = new global::Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute("method", "post", global::Microsoft.AspNetCore.Razor.TagHelpers.HtmlAttributeValueStyle.DoubleQuotes);
@@ -88,7 +95,7 @@ using DTO;
         En kısa sürede yardımcı olacağız.
     </p>
     ");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("form", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "e19ef4ae8d55b5ffa9fc8e1e7d30d2fed9fe8b934561", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("form", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "e19ef4ae8d55b5ffa9fc8e1e7d30d2fed9fe8b934713", async() => {
                 WriteLiteral("\r\n        ");
 #nullable restore
 #line 20 "C:\WorkSpace\DMC\WebApp\Views\User\ForgotPassword.cshtml"

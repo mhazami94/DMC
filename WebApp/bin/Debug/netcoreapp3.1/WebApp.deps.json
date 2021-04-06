@@ -37,6 +37,7 @@
           "Newtonsoft.Json": "13.0.1",
           "Services": "1.0.0",
           "WebMarkupMin.AspNetCore3": "2.9.1",
+          "Azami.Utility": "1.0.0.0",
           "Microsoft.AspNetCore.Antiforgery": "3.1.0.0",
           "Microsoft.AspNetCore.Authentication.Abstractions": "3.1.0.0",
           "Microsoft.AspNetCore.Authentication.Cookies": "3.1.0.0",
@@ -1622,6 +1623,22 @@
         },
         "compile": {
           "Services.dll": {}
+        }
+      },
+      "Azami.Utility/1.0.0.0": {
+        "runtime": {
+          "Azami.Utility.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        },
+        "resources": {
+          "fa-IR/Azami.Utility.resources.dll": {
+            "locale": "fa-IR"
+          }
+        },
+        "compile": {
+          "Azami.Utility.dll": {}
         }
       },
       "Microsoft.AspNetCore.Antiforgery/3.1.0.0": {
@@ -4115,6 +4132,11 @@
     },
     "Services/1.0.0": {
       "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Azami.Utility/1.0.0.0": {
+      "type": "reference",
       "serviceable": false,
       "sha512": ""
     },
