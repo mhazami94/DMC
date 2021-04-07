@@ -69,8 +69,21 @@
 
 
 @media(max-width:1024px) {
-    .winning-trader-description, .winning-meta-trader-box, .winning-fx-box, .winners-box {
+    .winning-trader-description,
+    .winning-meta-trader-box,
+    .winning-fx-box,
+    .winners-box,
+    .fx-box {
         width: 100%;
+    }
+
+    .form-input-row {
+        width: 90%;
+    }
+
+    .sending-price, .calculator-btn-box {
+        width: 90%;
+        margin: 0 auto 30px;
     }
 
     .section-submit-box {
@@ -191,15 +204,17 @@
         overflow-x: auto;
         width: 90%;
     }
+
     .winners-item {
         max-width: 50%;
         flex: 0 0 50%;
     }
+
     .winners-title {
         width: 100vw;
     }
 
-  
+
 
     .lang-drop {
         width: 21%;
@@ -279,8 +294,48 @@
 
 
 @media(max-width:576px) {
+    .calculator-result-box {
+        width: 90%;
+    }
 
+    .calculator-btn {
+        width: 100%;
+    }
 
+    .form-input-row {
+        flex-direction: column;
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    .input-box-group {
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+
+    .group-row-choose-btn {
+        width: 100%;
+    }
+
+    .group-row-item {
+        max-width: 100%;
+        flex: 0 0 100%;
+        border-right: 1px solid #ccc;
+        border-top: none;
+    }
+
+    .group-row-list {
+        flex-direction: column;
+    }
+
+    .group-row-header-title {
+        width: 100%;
+    }
+
+    .group-row {
+        width: 80%;
+        margin: 50px auto;
+    }
 
     .winning-fx-list {
         margin: 0 auto;
