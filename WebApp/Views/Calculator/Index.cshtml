@@ -17,7 +17,7 @@
             <div class="input-box-group">
                 <label>Parite Adı</label>
                 <select class="fx-input" id="tips" asp-items="(SelectList)ViewBag.Tips">
-                    <option>Seçiniz</option>
+                    <option value="">Seçiniz</option>
                 </select>
             </div>
         </div>
@@ -106,16 +106,32 @@
 }
 <script>
 
+    function getPrice() {
+        var tip = document.getElementById("tips");
+        var type = document.getElementById("calculatorType");
+        if (tip.value != "" && type.value != "@Enums.CalculatorType.None") {
+            $.get('/Calculaor/GetPrice', { tip: tip.value, type: type.value }, function (res) {
+                document.getElementById("currentPrice").value = res;
+            })
+        }
+    }
+    document.getElementById("calculatorType").addEventListener("change", () => getPrice());
+    document.getElementById("tips").addEventListener("change", () => getPrice());
 
     document.getElementById("calculator-btn").addEventListener("click", function () {
-        getTeminat()
-    })
+        calculate();
+    });
+
+    function calculate() {
+        getTeminat();
+        karZarar();
+        pipslikDegisim();
+    }
     function getTeminat() {
         var type = document.getElementById("calculatorType").value;
         var tip = document.getElementById("tips").value;
         var lever = document.getElementById("lever").value;
         var lever_other = document.getElementById("lever-other").value;
-        // var startPrice = document.getElementById("startPrice").value;
         var P1 = document.getElementById("currentPrice").value;
         var V = document.getElementById("rangeValue").value;
 
@@ -153,11 +169,103 @@
             var result = V * L / K;
             resultbox.innerText = ": " + result + "$";
         } else {
-            $.get('/Calculaor/Result', { type: type, unit: lastPortionOfParite, range: V, L: L, K: K }, function (d) {
+            $.get('/Calculaor/GetTeminat', { type: type, unit: lastPortionOfParite, range: V, L: L, K: K }, function (d) {
                 resultbox.innerText = ": " + d + "$";
             });
         }
         setTimeout(function () { getTeminat(); }, 5000);
+    }
+
+    function karZarar() {
+        var type = document.getElementById("calculatorType").value;
+        var tip = document.getElementById("tips").value;
+        var K = document.getElementById("lever").value;
+        var Ko = document.getElementById("lever-other").value;
+        var P1 = document.getElementById("startPrice").value;
+        var P2 = document.getElementById("currentPrice").value;
+        var V = document.getElementById("rangeValue").value;
+
+        var L;
+
+        if (P2 == "" || P1 == "")
+            return false;
+
+        switch (tip) {
+            case "XAUUSD": L = "100";
+                break;
+            case "XAGUSD": L = "5000";
+                break;
+            default: L = "100000";
+        }
+
+        var firstPortionOfParite = tip.slice(0, 3);
+        var lastPortionOfParite = tip.slice(3, 6);
+        var resultbox = document.getElementById("Zarar");
+
+        if (lastPortionOfParite == "USD") {
+            if (type == "@Enums.CalculatorType.Buy")
+                resultbox.innerText = V * L * (P2 - P1);
+            if (type == "@Enums.CalculatorType.Sell")
+                resultbox.innerText = V * L * (P1 - P2);
+        } else if (firstPortionOfParite == "USD") {
+            if (type == "@Enums.CalculatorType.Buy")
+                resultbox.innerText = V * L * (P2 - P1) / P2;
+            if (type == "@Enums.CalculatorType.Sell")
+                resultbox.innerText = V * L * (P1 - P2) / P2;
+        } else {
+            $.get('/Calculaor/GetZarar', { type: type, unit: lastPortionOfParite, range: V, L: L, P1: P1, P2: P2 }, function (d) {
+                resultbox.innerText = ": " + d + "$";
+            });
+        }
+    }
+
+
+    function pipslikDegisim() {
+        var type = document.getElementById("calculatorType").value;
+        var tip = document.getElementById("tips").value;
+        var K = document.getElementById("lever").value;
+        var Ko = document.getElementById("lever-other").value;
+        var P1 = document.getElementById("startPrice").value;
+        var V = document.getElementById("rangeValue").value;
+
+        var L;
+        switch (tip) {
+            case "XAUUSD": L = "100";
+                break;
+            case "XAGUSD": L = "5000";
+                break;
+            default: L = "100000";
+        }
+
+        var Pip;
+        switch (tip) {
+            case "XAUUSD": Pip = "0.01";
+                break;
+            case "XAGUSD": Pip = "0.0001";
+                break;
+            case "USDJPY":
+            case "EURJPY":
+            case "CADJPY":
+            case "GBPJPY":
+            case "AUDJPY":
+            case "CHFJPY":
+            case "USDHUF":
+            case "EURHUF":
+            case "NZDJPY": Pip = "0.01";
+                break;
+            default: Pip = "0.0001";
+        }
+
+        var firstPortionOfParite = tip.slice(0, 3);
+        var lastPortionOfParite = tip.slice(3, 6);
+        var resultbox = document.getElementById("Pips");
+        if (lastPortionOfParite == "USD") {
+            resultbox.innerText = V * L * Pip;
+        } else {
+            $.get('/Calculaor/GetPip', { type: type, unit: lastPortionOfParite, range: V, L: L, Pip: Pip }, function (d) {
+                resultbox.innerText = ": " + d + "$";
+            });
+        }
     }
 
     document.getElementById("myRange").addEventListener("input", function () {
