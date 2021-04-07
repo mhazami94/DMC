@@ -6,9 +6,10 @@
 }
 
 @media(max-width:1370px) {
-    .nav-bar{
-        width:1170px;
+    .nav-bar {
+        width: 1170px;
     }
+
     .nav-menu {
         width: 54.282051%;
     }
@@ -68,6 +69,10 @@
 
 
 @media(max-width:1024px) {
+    .winning-trader-description, .winning-meta-trader-box, .winning-fx-box, .winners-box {
+        width: 100%;
+    }
+
     .section-submit-box {
         margin-top: 30px;
     }
@@ -86,7 +91,6 @@
 
     .items-line {
         padding: 100px 0 0;
-        
     }
 
     .monitor-img {
@@ -181,6 +185,22 @@
 
 
 @media(max-width:992px) {
+    .winners-list {
+        display: flex;
+        flex-wrap: nowrap;
+        overflow-x: auto;
+        width: 90%;
+    }
+    .winners-item {
+        max-width: 50%;
+        flex: 0 0 50%;
+    }
+    .winners-title {
+        width: 100vw;
+    }
+
+  
+
     .lang-drop {
         width: 21%;
     }
@@ -259,6 +279,72 @@
 
 
 @media(max-width:576px) {
+
+
+
+    .winning-fx-list {
+        margin: 0 auto;
+        width: 90%;
+        flex-wrap: wrap;
+    }
+
+    .winning-fx-item {
+        max-width: 50%;
+        flex: 0 0 50%;
+        margin-bottom: 30px;
+    }
+
+        .winning-fx-item > .winning-fx-item-image {
+            border-right: none;
+        }
+
+        .winning-fx-item p {
+            font-size: 24px;
+        }
+
+    .winning-fx-banner {
+        font-size: 100px;
+    }
+
+    .winning-meta-trader-title {
+        font-size: 46px;
+        line-height: 55px;
+        margin-bottom: 50px;
+    }
+
+    .winning-meta-trader-box {
+        text-align: center;
+    }
+
+        .winning-meta-trader-box img {
+            width: 90%;
+        }
+
+    .winning-trader-dollar-text-header {
+        white-space: nowrap;
+        font-size: 28px;
+    }
+
+    .winning-trader-dollar-section {
+        flex-direction: column;
+    }
+
+    .winning-trader-description-list {
+        flex-direction: column;
+    }
+
+    .winning-trader-description-item {
+        width: 90%;
+        margin: 10px auto !important;
+        max-width: 90%;
+    }
+
+
+
+    .go-gourp-btn {
+        width: 66.66%;
+    }
+
     .footer-logo > img {
         margin-left: 20px;
     }

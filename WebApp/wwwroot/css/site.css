@@ -2256,6 +2256,14 @@ option, select {
     margin-bottom: 15px;
 }
 
+.winning-trader-dollar-text img {
+    max-width: 100%;
+}
+
+.winning-trader-dollar-money img {
+    max-width: 100%;
+}
+
 .winning-trader-dollar-text p {
     margin-top: 40px;
 }
