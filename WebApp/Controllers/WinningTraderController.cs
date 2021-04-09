@@ -9,10 +9,10 @@ namespace WebApp.Controllers
     public class WinningTraderController : Controller
     {
 
-        //public IActionResult Index()
-        //{
-        //    return View();
-        //}
+        public IActionResult Index()
+        {
+            return View();
+        }
 
         [Route("/Winning-Trader")]
         public IActionResult WinningTrader()

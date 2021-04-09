@@ -2127,6 +2127,9 @@ option, select {
 .green-tick {
     color: #38ac4b;
 }
+.red-tick {
+    color: #e80300;
+}
 
 .winning-trader-objectives-description-box {
     background: #1d252c;
