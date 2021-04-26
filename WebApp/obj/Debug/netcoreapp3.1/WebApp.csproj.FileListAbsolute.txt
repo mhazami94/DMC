@@ -732,3 +732,12 @@ C:\WorkSpace\DMC\WebApp\bin\Debug\netcoreapp3.1\Azami.Utility.dll
 C:\WorkSpace\DMC\WebApp\bin\Debug\netcoreapp3.1\Azami.Utility.pdb
 C:\WorkSpace\DMC\WebApp\bin\Debug\netcoreapp3.1\fa-IR\Azami.Utility.resources.dll
 C:\WorkSpace\DMC\WebApp\obj\Debug\netcoreapp3.1\Razor\Views\Calculator\Index.cshtml.g.cs
+G:\WorkSpace\DMC\WebApp\bin\Debug\netcoreapp3.1\companyInfo.json
+G:\WorkSpace\DMC\WebApp\bin\Debug\netcoreapp3.1\Azami.Utility.dll
+G:\WorkSpace\DMC\WebApp\bin\Debug\netcoreapp3.1\Azami.Utility.pdb
+G:\WorkSpace\DMC\WebApp\bin\Debug\netcoreapp3.1\fa-IR\Azami.Utility.resources.dll
+G:\WorkSpace\DMC\WebApp\obj\Debug\netcoreapp3.1\Razor\Views\Calculator\Index.cshtml.g.cs
+G:\WorkSpace\DMC\WebApp\obj\Debug\netcoreapp3.1\Razor\Views\Group\Index.cshtml.g.cs
+G:\WorkSpace\DMC\WebApp\obj\Debug\netcoreapp3.1\Razor\Views\WinningTrader\Index.cshtml.g.cs
+G:\WorkSpace\DMC\WebApp\obj\Debug\netcoreapp3.1\Razor\Views\WinningTrader\SignUp.cshtml.g.cs
+G:\WorkSpace\DMC\WebApp\obj\Debug\netcoreapp3.1\Razor\Views\WinningTrader\WinningTrader.cshtml.g.cs
