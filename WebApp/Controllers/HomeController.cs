@@ -35,6 +35,13 @@ namespace WebApp.Controllers
             return View();
         }
 
+
+        [Route("/FAQ")]
+        public IActionResult FAQ()
+        {
+            return View();
+        }
+
         [Route("/career")]
         public IActionResult Career()
         {

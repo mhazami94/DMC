@@ -2127,6 +2127,7 @@ option, select {
 .green-tick {
     color: #38ac4b;
 }
+
 .red-tick {
     color: #e80300;
 }
@@ -2607,4 +2608,52 @@ input[type="range"] {
 .calculator-result-lable {
     max-width: 50%;
     flex: 0 0 50%;
+}
+
+.accordion {
+    background-color: #f7f8fa;
+    color: #444;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    text-align: left;
+    border: none;
+    outline: none;
+    transition: 0.4s;
+    font-family: "Font Awesome 5 Free";
+}
+
+    .active, .accordion:hover {
+        background-color: #1d252c;
+        color: #fff;
+    }
+
+        .accordion:hover::after {
+            color: #fff;
+        }
+
+.panel {
+    padding: 10px 18px;
+    background-color: #60666b;
+    color: #fff;
+    display: none;
+    overflow: hidden;
+}
+
+    .panel > p {
+        font-size: 14px !important;
+        margin-bottom: 15px;
+    }
+
+button.accordion:after {
+    content: "\f054";
+    color: #777;
+    font-weight: bold;
+    float: right;
+    margin-left: 5px;
+}
+
+button.accordion.active:after {
+    content: "\f078";
+    color: #fff;
 }
