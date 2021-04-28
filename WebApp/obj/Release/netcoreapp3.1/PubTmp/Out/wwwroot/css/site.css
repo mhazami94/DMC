@@ -25,6 +25,10 @@ footer, header, hgroup, menu, nav, section {
     display: block;
 }
 
+section {
+    overflow: hidden;
+}
+
 .sp-line {
     height: 1px;
     width: 1170px;
@@ -165,7 +169,7 @@ nav {
 
 .nav-bar {
     margin: 0 auto;
-    width: 1170px;
+    width: 1426px;
     height: 100%;
 }
 
@@ -181,7 +185,15 @@ nav {
 }
 
 .logo {
-    width: 50%;
+    width: 44%;
+}
+
+.winning-trader {
+    background: #e1251b;
+    color: #fff !important;
+    padding: 10px !important;
+    border-radius: 34px;
+    cursor: pointer;
 }
 
 .nav-menu {
@@ -349,6 +361,12 @@ nav {
     padding-bottom: 14px;
     color: #e80300;
 }
+
+    .menu > li:hover > a.winning-trader {
+        border-bottom: none;
+        padding-bottom: 10px;
+        color: #fff;
+    }
 
 .menu > li:hover > .submenu {
     display: block;
@@ -591,7 +609,6 @@ nav {
     overflow: hidden;
     margin: 20px auto 0 auto;
     border-radius: 4px;
-    margin-bottom: 500px;
 }
 
     #slider h3 {
@@ -604,6 +621,7 @@ nav {
 .items-line {
     padding: 100px 0;
     max-height: 370px;
+    overflow: hidden;
 }
 
 .items-line-box {
@@ -1986,4 +2004,656 @@ option, select {
 .message-danger {
     box-shadow: 0 0 5px #ff0000;
     color: #ff0000;
+}
+
+.section-winning {
+    width: 1170px;
+    display: flex;
+    margin: 145px auto 100px;
+}
+
+.winning-side {
+    max-width: 28.20512820512821%;
+    flex: 0 0 28.20512820512821%;
+    margin-right: 5.982905982905983%;
+}
+
+.winning-body {
+    max-width: 65.81196581196581%;
+    flex: 0 0 65.81196581196581%;
+}
+
+.winning-tb1 {
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+    .winning-tb1 tr td {
+        font-size: 14px;
+        height: 40px;
+        line-height: 40px;
+    }
+
+    .winning-tb1 thead tr td {
+        padding-left: 10px;
+    }
+
+    .winning-tb1 tbody tr td:first-child {
+        border-right: 1px solid #ccc;
+        padding-left: 10px;
+        width: 120px;
+    }
+
+    .winning-tb1 tbody tr td:last-child {
+        padding-right: 10px;
+        text-align: right;
+    }
+
+    .winning-tb1 tbody tr:nth-child(2n) {
+        background: #f7f7f9;
+    }
+
+.tr-bg-red {
+    background: #e80300;
+}
+
+    .tr-bg-red > td {
+        color: #fff;
+        border: none;
+        font-weight: bold;
+    }
+
+.winning-trader-chart-section {
+    border-right: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+    border-left: 1px solid #ccc;
+    margin-bottom: 30px;
+}
+
+.winning-trader-chart-section-header {
+    height: 40px;
+    padding-left: 10px;
+    background: #e80300;
+    color: #fff;
+    line-height: 40px;
+    font-weight: bold;
+}
+
+.winning-trader-chart-box {
+    min-height: 235px;
+    padding: 0 10px;
+}
+
+.winning-trader-tb-under-chart {
+    width: 100%;
+}
+
+    .winning-trader-tb-under-chart tbody tr:nth-child(2n+1) {
+        background: #f7f7f9;
+    }
+
+    .winning-trader-tb-under-chart tbody tr td {
+        height: 40px;
+        text-align: right;
+        line-height: 40px;
+        padding: 0 10px;
+        border-right: 1px solid #ccc;
+    }
+
+        .winning-trader-tb-under-chart tbody tr td:first-child {
+            text-align: left;
+        }
+
+        .winning-trader-tb-under-chart tbody tr td:last-child {
+            border-right: none;
+        }
+
+.winning-trader-tb-objectives {
+    width: 100%;
+}
+
+    .winning-trader-tb-objectives tr td {
+        padding: 0 10px;
+        height: 40px;
+        line-height: 40px;
+        border: 1px solid #ccc;
+        font-weight: bold;
+    }
+
+.text-right {
+    text-align: right;
+}
+
+.green-tick {
+    color: #38ac4b;
+}
+
+.red-tick {
+    color: #e80300;
+}
+
+.winning-trader-objectives-description-box {
+    background: #1d252c;
+    padding: 15px 100px;
+}
+
+    .winning-trader-objectives-description-box p {
+        line-height: 24px;
+        color: #fff;
+        font-size: 14px;
+        text-align: center;
+    }
+
+.text-bold {
+    font-weight: bold;
+}
+
+.group-row {
+    width: 100%;
+    margin: 50px 0;
+}
+
+.group-row-header {
+    width: 100%;
+    height: 55px;
+}
+
+.group-row-header-title {
+    color: #fff;
+    background: #009e29;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    height: 100%;
+    line-height: 55px;
+    text-align: center;
+    width: calc(33.33333333333333% + 3px);
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.group-row-choose {
+    width: 100%;
+    margin: 50px 0;
+}
+
+.group-row-choose-btn {
+    width: calc(33.33333333333333% + 3px);
+    border-radius: 34px;
+    color: #fff;
+    background: #009e29;
+    height: 65px;
+    display: inline-block;
+    text-align: center;
+    line-height: 65px;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.group-row-list {
+    display: flex;
+}
+
+.group-row-item {
+    max-width: 33.33333333333333%;
+    flex: 0 0 33.33333333333333%;
+    min-height: 330px;
+    border-left: 1px solid #ccc;
+    border-top: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+}
+
+    .group-row-item:last-child {
+        border-right: 1px solid #ccc;
+    }
+
+.group-row-item-box {
+    margin: 0 20px;
+    height: 100%;
+}
+
+.group-row-item-header {
+    text-align: center;
+    font-weight: bold;
+    height: 52px;
+    line-height: 52px;
+    border-bottom: 1px solid #ccc;
+}
+
+.group-list {
+    width: 100%;
+}
+
+    .group-list > li {
+        width: 100%;
+        text-align: center;
+        padding: 8px 0;
+        font-size: 14px;
+        font-weight: bold;
+    }
+
+.go-gourp {
+    width: 100%;
+    padding: 50px 0 100px;
+    border-bottom: 1px solid #ccc;
+}
+
+.go-gourp-btn {
+    width: 33.33333333333333%;
+    height: 65px;
+    line-height: 65px;
+    text-align: center;
+    color: #fff;
+    font-size: 20px;
+    border-radius: 34px;
+    background: #ff0000;
+    display: inline-block;
+}
+
+.winning-trader-dollar-section {
+    padding: 50px 0;
+    display: flex;
+}
+
+.winning-trader-dollar-text-header {
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.winning-trader-dollar-text img {
+    max-width: 100%;
+}
+
+.winning-trader-dollar-money img {
+    max-width: 100%;
+}
+
+.winning-trader-dollar-text p {
+    margin-top: 40px;
+}
+
+.winning-trader-description-section {
+    background: #f8f8ff;
+    width: 100%;
+    padding: 100px 0;
+}
+
+.winning-trader-description {
+    width: 1170px;
+    margin: 0 auto;
+}
+
+.winning-trader-description-title {
+    font-weight: bold;
+    text-align: center;
+    font-size: 26px;
+    margin-bottom: 40px;
+}
+
+.winning-trader-description-list {
+    display: flex;
+}
+
+.winning-trader-description-item {
+    max-width: 29.31623931623932%;
+    flex: 0 0 29.31623931623932%;
+    margin: 0 2.884615384615385%;
+    min-height: 305px;
+    border: 1px solid #ccc;
+}
+
+    .winning-trader-description-item:first-child {
+        margin-left: 0;
+    }
+
+    .winning-trader-description-item:last-child {
+        margin-right: 0;
+    }
+
+    .winning-trader-description-item:hover > .winning-trader-description-item-header {
+        background: #e80300;
+    }
+
+.winning-trader-description-item-header {
+    height: 60px;
+    color: #fff;
+    text-align: center;
+    background: #1d252c;
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 60px;
+}
+
+.winning-trader-description-item-body {
+    margin: 25px 35px;
+    text-align: center;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: bold;
+}
+
+.winning-meta-trader-section {
+    width: 100%;
+    padding: 100px 0;
+}
+
+.winning-meta-trader-box {
+    width: 1170px;
+    margin: 0 auto;
+}
+
+.winning-meta-trader-title {
+    text-align: center;
+    font-size: 26px;
+    font-weight: bold;
+    margin-bottom: 40px;
+}
+
+.winning-meta-trader-des {
+    padding: 40px;
+    margin-top: 40px;
+    text-align: center;
+    line-height: 24px;
+    font-weight: bold;
+}
+
+.winning-fx-section {
+    width: 100%;
+    padding: 100px 0;
+    background: #f8f8ff;
+}
+
+.winning-fx-box {
+    width: 1170px;
+    margin: 0 auto;
+}
+
+.winning-fx-title {
+    text-align: center;
+    font-size: 26px;
+    font-weight: bold;
+    margin-bottom: 40px;
+}
+
+.winning-fx-banner {
+    margin-bottom: 70px;
+    text-align: center;
+    font-size: 120px;
+    font-weight: bold;
+}
+
+.winning-fx-list {
+    display: flex;
+}
+
+.winning-fx-item {
+    max-width: 25%;
+    flex: 0 0 25%;
+}
+
+    .winning-fx-item p {
+        text-align: center;
+        font-weight: bold;
+        font-size: 28px;
+        padding: 0 30px;
+        line-height: 30px;
+    }
+
+    .winning-fx-item > img {
+        max-width: 100%;
+        width: 120px;
+    }
+
+    .winning-fx-item > .winning-fx-item-image {
+        border-right: 1px solid #ccc;
+        text-align: center;
+        height: 152px;
+        margin-bottom: 30px;
+    }
+
+    .winning-fx-item:last-child > .winning-fx-item-image {
+        border-right: none;
+    }
+
+.wiiners-section {
+    width: 100%;
+    padding: 100px 0;
+}
+
+.winners-box {
+    width: 1170px;
+    margin: 0 auto;
+}
+
+.winners-title {
+    text-align: center;
+    font-weight: bold;
+    font-size: 26px;
+    margin-bottom: 40px;
+}
+
+.winners-list {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.winners-item {
+    max-width: 22.90598290598291%;
+    flex: 0 0 22.90598290598291%;
+    margin: 0 0.9615384615384615% 30px;
+    border: 1px solid #ccc;
+    height: 180px;
+    background-repeat: no-repeat;
+    background-position: right bottom;
+    position: relative;
+}
+
+.winners-item-amount {
+    position: absolute;
+    font-weight: bold;
+    font-size: 32px;
+    left: 20px;
+    top: 40px;
+}
+
+.winners-name {
+    position: absolute;
+    width: 41.04477611940299%;
+    left: 20px;
+    top: 85px;
+    font-size: 24px;
+}
+
+.fx-section {
+    width: 100%;
+    margin-top: 150px;
+}
+
+.fx-box {
+    width: 1170px;
+    margin: 0 auto;
+}
+
+.form-input-row {
+    width: 100%;
+    display: flex;
+}
+
+.input-box-group {
+    flex: 0 0 50%;
+    max-width: 50%;
+    display: flex;
+    height: 40px;
+    margin-bottom: 30px;
+}
+
+    .input-box-group label {
+        width: 30%;
+        display: inline-block;
+        line-height: 40px;
+    }
+
+.fx-input {
+    width: 65%;
+    height: 40px;
+    border: 1px solid #ccc;
+    outline: none;
+}
+
+.fx-input-count-lable {
+    width: 10% !important;
+}
+
+.fx-input-count {
+    border: 1px solid #ccc;
+    outline: none;
+    margin-right: 5%;
+    width: 40%;
+}
+
+.fx-input-count-other {
+    width: 9%;
+    border: 1px solid #ccc;
+    outline: none;
+}
+
+.fx-Hacim-input-box {
+    width: 65%;
+    display: flex;
+    flex-direction: column;
+    height: 60px;
+}
+
+    .fx-Hacim-input-box > .fx-input {
+        width: 100% !important;
+        height: 40px;
+        margin-bottom: 10px;
+    }
+
+input[type="range"] {
+    background: #fff;
+    border: solid 1px #e2211c;
+    border-radius: 8px;
+    height: 7px;
+    outline: none;
+    transition: background 450ms ease-in;
+    -webkit-appearance: none;
+}
+
+    input[type='range']::-webkit-slider-runnable-track {
+        color: #e2211c;
+        margin-top: 1px;
+    }
+
+    input[type='range']::-webkit-slider-thumb {
+        outline: none;
+        width: 15px;
+        -webkit-appearance: none;
+        height: 15px;
+        border-radius: 50%;
+        background-color: #e2211c;
+        color: #e2211c
+    }
+
+.sending-price {
+    text-align: right;
+    margin-bottom: 30px;
+    width: 100%;
+}
+
+.sending-price-link {
+    color: #e2211c;
+    margin-right: 2%;
+    display: inline-block;
+}
+
+.calculator-btn-box {
+    text-align: right;
+    margin-bottom: 50px;
+    width: 100%;
+}
+
+.calculator-btn {
+    border: none;
+    height: 50px;
+    width: 33.00940170940171%;
+    border-radius: 34px;
+    color: #fff;
+    background-color: #e2211c;
+    margin-right: 2%;
+    outline: none;
+    cursor: pointer;
+}
+
+.calculator-result-section {
+    width: 100%;
+    direction: rtl;
+    margin-bottom: 70px;
+}
+
+.calculator-result-box {
+    width: 33.00940170940171%;
+    margin-right: 2%;
+    display: flex;
+    flex-direction: column;
+}
+
+.calculator-result-row {
+    width: 100%;
+    display: flex;
+    direction: ltr;
+    margin-bottom: 30px;
+}
+
+.calculator-result-lable {
+    max-width: 50%;
+    flex: 0 0 50%;
+}
+
+.accordion {
+    background-color: #f7f8fa;
+    color: #444;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    text-align: left;
+    border: none;
+    outline: none;
+    transition: 0.4s;
+    font-family: "Font Awesome 5 Free";
+}
+
+    .active, .accordion:hover {
+        background-color: #1d252c;
+        color: #fff;
+    }
+
+        .accordion:hover::after {
+            color: #fff;
+        }
+
+.panel {
+    padding: 10px 18px;
+    background-color: #60666b;
+    color: #fff;
+    display: none;
+    overflow: hidden;
+}
+
+    .panel > p {
+        font-size: 14px !important;
+        margin-bottom: 15px;
+    }
+
+button.accordion:after {
+    content: "\f054";
+    color: #777;
+    font-weight: bold;
+    float: right;
+    margin-left: 5px;
+}
+
+button.accordion.active:after {
+    content: "\f078";
+    color: #fff;
 }
