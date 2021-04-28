@@ -742,3 +742,4 @@ G:\WorkSpace\DMC\WebApp\obj\Debug\netcoreapp3.1\Razor\Views\WinningTrader\Index.
 G:\WorkSpace\DMC\WebApp\obj\Debug\netcoreapp3.1\Razor\Views\WinningTrader\SignUp.cshtml.g.cs
 G:\WorkSpace\DMC\WebApp\obj\Debug\netcoreapp3.1\Razor\Views\WinningTrader\WinningTrader.cshtml.g.cs
 C:\WorkSpace\DMC\WebApp\obj\Debug\netcoreapp3.1\Razor\Views\Home\FAQ.cshtml.g.cs
+G:\WorkSpace\DMC\WebApp\obj\Debug\netcoreapp3.1\Razor\Views\Home\FAQ.cshtml.g.cs
