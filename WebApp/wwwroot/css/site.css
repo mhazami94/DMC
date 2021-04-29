@@ -113,9 +113,11 @@ strong {
 }
 
 .dis-block {
-    display: block;
+    display: block !important;
 }
-
+.dis-none {
+    display: none !important;
+}
 .social-text p {
     font-size: 12px;
     line-height: 30px;

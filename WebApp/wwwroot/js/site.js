@@ -1,4 +1,23 @@
-﻿document.getElementById("nav-btn").addEventListener("click", function (e) {
+﻿
+if (screen.width <= 576) {
+    var menu = document.querySelectorAll(".menu > li");
+    for (var i = 0; i < menu.length; i++) {
+        menu[i].addEventListener("click", function () {
+            var children = this.childNodes;
+            if (children.length >= 4) {
+                if (children[3].style.display == "block") {
+                    children[3].style.display = "none";
+                } else {
+                    children[3].style.display = "block";
+                }
+            }
+
+        })
+    }
+}
+
+
+document.getElementById("nav-btn").addEventListener("click", function (e) {
     var login = document.getElementById("login");
     var signup = document.getElementById("signup");
     if (document.getElementById("login").contains(e.target)) {

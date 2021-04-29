@@ -826,6 +826,7 @@
         background: #0c0f12;
         opacity: .8;
         display: none;
+        min-height: 1px;
     }
 
     .submenu-box ul {
