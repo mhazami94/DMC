@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<datalar>
+  <data tip="AUDCAD">
+    <ad>AUDCAD</ad>
+    <satis>0.95883</satis>
+    <alis>0.95923</alis>
+  </data>
+  <data tip="AUDCHF">
+    <ad>AUDCHF</ad>
+    <satis>0.71373</satis>
+    <alis>0.7142</alis>
+  </data>
+  <data tip="AUDJPY">
+    <ad>AUDJPY</ad>
+    <satis>83.912</satis>
+    <alis>83.95</alis>
+  </data>
+  <data tip="AUDNZD">
+    <ad>AUDNZD</ad>
+    <satis>1.08494</satis>
+    <alis>1.08544</alis>
+  </data>
+  <data tip="AUDUSD">
+    <ad>AUDUSD</ad>
+    <satis>0.76342</satis>
+    <alis>0.7636</alis>
+  </data>
+  <data tip="CADJPY">
+    <ad>CADJPY</ad>
+    <satis>87.5</satis>
+    <alis>87.534</alis>
+  </data>
+  <data tip="CHFJPY">
+    <ad>CHFJPY</ad>
+    <satis>117.539</satis>
+    <alis>117.575</alis>
+  </data>
+  <data tip="EURAUD">
+    <ad>EURAUD</ad>
+    <satis>1.5492</satis>
+    <alis>1.54962</alis>
+  </data>
+  <data tip="EURCAD">
+    <ad>EURCAD</ad>
+    <satis>1.48585</satis>
+    <alis>1.48614</alis>
+  </data>
+  <data tip="EURCHF">
+    <ad>EURCHF</ad>
+    <satis>1.10616</satis>
+    <alis>1.10638</alis>
+  </data>
+  <data tip="EURGBP">
+    <ad>EURGBP</ad>
+    <satis>0.85451</satis>
+    <alis>0.85469</alis>
+  </data>
+  <data tip="EURHUF">
+    <ad>EURHUF</ad>
+    <satis>360.464</satis>
+    <alis>360.693</alis>
+  </data>
+  <data tip="EURJPY">
+    <ad>EURJPY</ad>
+    <satis>130.035</satis>
+    <alis>130.056</alis>
+  </data>
+  <data tip="EURNOK">
+    <ad>EURNOK</ad>
+    <satis>10.08568</satis>
+    <alis>10.08868</alis>
+  </data>
+  <data tip="EURPLN">
+    <ad>EURPLN</ad>
+    <satis>4.59545</satis>
+    <alis>4.59875</alis>
+  </data>
+  <data tip="EURTRY">
+    <ad>EURTRY</ad>
+    <satis>9.6301</satis>
+    <alis>9.63909</alis>
+  </data>
+  <data tip="EURUSD">
+    <ad>EURUSD</ad>
+    <satis>1.18297</satis>
+    <alis>1.18311</alis>
+  </data>
+  <data tip="GBPCAD">
+    <ad>GBPCAD</ad>
+    <satis>1.73856</satis>
+    <alis>1.7391</alis>
+  </data>
+  <data tip="GBPCHF">
+    <ad>GBPCHF</ad>
+    <satis>1.29425</satis>
+    <alis>1.29473</alis>
+  </data>
+  <data tip="GBPJPY">
+    <ad>GBPJPY</ad>
+    <satis>152.156</satis>
+    <alis>152.191</alis>
+  </data>
+  <data tip="GBPUSD">
+    <ad>GBPUSD</ad>
+    <satis>1.38424</satis>
+    <alis>1.3844</alis>
+  </data>
+  <data tip="NZDUSD">
+    <ad>NZDUSD</ad>
+    <satis>0.70347</satis>
+    <alis>0.70376</alis>
+  </data>
+  <data tip="USDCAD">
+    <ad>USDCAD</ad>
+    <satis>1.25599</satis>
+    <alis>1.25619</alis>
+  </data>
+  <data tip="USDCHF">
+    <ad>USDCHF</ad>
+    <satis>0.935</satis>
+    <alis>0.93518</alis>
+  </data>
+  <data tip="USDHUF">
+    <ad>USDHUF</ad>
+    <satis>304.692</satis>
+    <alis>304.872</alis>
+  </data>
+  <data tip="USDJPY">
+    <ad>USDJPY</ad>
+    <satis>109.919</satis>
+    <alis>109.933</alis>
+  </data>
+  <data tip="USDMXN">
+    <ad>USDMXN</ad>
+    <satis>20.23877</satis>
+    <alis>20.2471</alis>
+  </data>
+  <data tip="USDNOK">
+    <ad>USDNOK</ad>
+    <satis>8.52503</satis>
+    <alis>8.52757</alis>
+  </data>
+  <data tip="USDPLN">
+    <ad>USDPLN</ad>
+    <satis>3.88415</satis>
+    <alis>3.88726</alis>
+  </data>
+  <data tip="USDTRY">
+    <ad>USDTRY</ad>
+    <satis>8.13646</satis>
+    <alis>8.14275</alis>
+  </data>
+  <data tip="USDZAR">
+    <ad>USDZAR</ad>
+    <satis>14.51795</satis>
+    <alis>14.52484</alis>
+  </data>
+  <data tip="XAUUSD">
+    <ad>XAUUSD</ad>
+    <satis>1736.66</satis>
+    <alis>1737.14</alis>
+  </data>
+  <data tip="XAGUSD">
+    <ad>XAGUSD</ad>
+    <satis>25.034</satis>
+    <alis>25.052</alis>
+  </data>
+</datalar>
