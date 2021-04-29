@@ -13,21 +13,21 @@ namespace AspNetCore
     using Microsoft.AspNetCore.Mvc.Rendering;
     using Microsoft.AspNetCore.Mvc.ViewFeatures;
 #nullable restore
-#line 1 "G:\WorkSpace\DMC\WebApp\Views\_ViewImports.cshtml"
+#line 1 "C:\Users\pc\Source\Repos\mhazami94\DMC\WebApp\Views\_ViewImports.cshtml"
 using WebApp;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 2 "G:\WorkSpace\DMC\WebApp\Views\_ViewImports.cshtml"
+#line 2 "C:\Users\pc\Source\Repos\mhazami94\DMC\WebApp\Views\_ViewImports.cshtml"
 using WebApp.Models;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 3 "G:\WorkSpace\DMC\WebApp\Views\_ViewImports.cshtml"
+#line 3 "C:\Users\pc\Source\Repos\mhazami94\DMC\WebApp\Views\_ViewImports.cshtml"
 using DTO;
 
 #line default
@@ -88,7 +88,7 @@ using Azami.Utility;
             __tagHelperExecutionContext = __tagHelperScopeManager.Begin("head", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "f5135abcf37a69231984a6d90cfdac69f6c37ab28066", async() => {
                 WriteLiteral("\r\n    <meta charset=\"utf-8\" />\r\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\" />\r\n    <title>");
 #nullable restore
-#line 6 "G:\WorkSpace\DMC\WebApp\Views\Shared\_Layout.cshtml"
+#line 6 "C:\Users\pc\Source\Repos\mhazami94\DMC\WebApp\Views\Shared\_Layout.cshtml"
       Write(ViewData["Title"]);
 
 #line default
