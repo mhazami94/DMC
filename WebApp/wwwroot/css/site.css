@@ -63,11 +63,44 @@ table {
 
 header {
     width: 100vw;
+    margin-top: 205px;
 }
 
 main {
     width: 1170px;
     margin: 0 auto;
+}
+
+.top-banner {
+    position: fixed;
+    top: 0;
+    height: 110px;
+    width: 100vw;
+    background: url('/img/Top.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    z-index: 999;
+    text-align: center;
+}
+
+    .top-banner > p {
+        color: #fff;
+        font-size: 2em;
+        margin-top: 10px;
+    }
+
+    .top-banner span {
+        font-weight: bold;
+    }
+
+.top-banner-btn {
+    color: #fff;
+    margin-top: 10px;
+    display: inline-block;
+    border-radius: 34px;
+    background: #e1251b;
+    padding: 10px 40px;
 }
 
 .header-social-media {
@@ -78,6 +111,8 @@ main {
     z-index: 999;
     background: #f2f2f2;
 }
+
+
 
 .social-media-box {
     width: 1170px;
@@ -142,7 +177,7 @@ nav {
     position: fixed;
     z-index: 999;
     background: #fff;
-    top: 0;
+    top: 110px;
 }
 
 #mask-popup {
@@ -283,7 +318,7 @@ nav {
     position: fixed;
     width: 100vw;
     left: 0;
-    top: 95px;
+    top: 205px;
     background: #1d252c;
     opacity: .9;
     right: 0;
