@@ -40,4 +40,3 @@ C:\WorkSpace\DMC\DTO\obj\Debug\netcoreapp3.1\DTO.AssemblyInfo.cs
 C:\WorkSpace\DMC\DTO\obj\Debug\netcoreapp3.1\DTO.csproj.CoreCompileInputs.cache
 C:\WorkSpace\DMC\DTO\obj\Debug\netcoreapp3.1\DTO.dll
 C:\WorkSpace\DMC\DTO\obj\Debug\netcoreapp3.1\DTO.pdb
-G:\WorkSpace\DMC\DTO\obj\Debug\netcoreapp3.1\DTO.csprojAssemblyReference.cache

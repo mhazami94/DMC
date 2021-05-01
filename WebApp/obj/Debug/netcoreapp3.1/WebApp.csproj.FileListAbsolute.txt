@@ -895,3 +895,4 @@ C:\Users\pc\Source\Repos\mhazami94\DMC\WebApp\bin\Debug\netcoreapp3.1\Services.p
 C:\Users\pc\Source\Repos\mhazami94\DMC\WebApp\obj\Debug\netcoreapp3.1\WebApp.Views.pdb
 C:\Users\pc\Source\Repos\mhazami94\DMC\WebApp\obj\Debug\netcoreapp3.1\WebApp.csproj.CopyComplete
 C:\Users\pc\Source\Repos\mhazami94\DMC\WebApp\obj\Debug\netcoreapp3.1\WebApp.genruntimeconfig.cache
+G:\WorkSpace\DMC\WebApp\obj\Debug\netcoreapp3.1\Razor\Views\Shared\Components\ShowMessageComponent\ShowMessage.cshtml.g.cs

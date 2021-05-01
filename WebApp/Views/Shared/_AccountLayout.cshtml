@@ -11,6 +11,7 @@
 <body>
 
     @RenderBody()
-
+    @await Component.InvokeAsync("ShowMessageComponent")
+    <link href="/css/common.min.css" rel="stylesheet" />
 </body>
 </html>

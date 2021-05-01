@@ -1,0 +1,35 @@
+﻿@model WebApp.Helpers.ShowMessage
+
+
+@if (Model.Show)
+{
+    <section id="message-box" class="message-box message-box-@Model.Type.ToString().ToLower()">
+        <span class="message-box-close" id="message-box-close">
+            <i class="fas fa-times"></i>
+        </span>
+        <p class="message-box-text">
+            @Model.Message
+        </p>
+        <script>            
+            function removeFadeOut(el, speed) {
+                var seconds = speed / 1000;
+                el.style.transition = "opacity " + seconds + "s ease";
+
+                el.style.opacity = 0;
+                setTimeout(function () {
+                    el.parentNode.removeChild(el);
+                }, speed);
+            }
+
+            setTimeout(function () {
+                removeFadeOut(document.getElementById('message-box'), 3000);
+            }, 8000)
+            document.getElementById("message-box-close").addEventListener("click", function () {
+                document.getElementById('message-box').remove();
+            })
+        </script>
+    </section>
+
+}
+
+

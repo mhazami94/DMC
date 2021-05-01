@@ -1,10 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "L58j1lPICOt/Kz6+hOXtm64KrIa30jc2U9iUowgynsdEOo1yjz+caeXvq2K/N+LpvKO+sbjsEQGeERE/R0OiYA==",
+  "dgSpecHash": "vt8EaWNwcwBDLozCI3OkZoJy44w+Ss8BPEylW3YO2+F8FZRRhdn2Pm28SUAIvmOdffUF5PCmOODPEBH1B9qMqQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\pc\\Source\\Repos\\mhazami94\\DMC\\DTO\\DTO.csproj",
+  "projectFilePath": "G:\\WorkSpace\\DMC\\DTO\\DTO.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\pc\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512"
+    "C:\\Users\\mohammad\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512"
   ],
   "logs": []
 }

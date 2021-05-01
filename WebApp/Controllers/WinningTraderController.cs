@@ -3,6 +3,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using WebApp.Helpers;
 
 namespace WebApp.Controllers
 {
@@ -23,6 +24,7 @@ namespace WebApp.Controllers
         [Route("/Winning-Trader-SignUp")]
         public IActionResult SignUp()
         {
+            MessageHandler.ShowMessage("Message Test", MessageType.Success);
             return View();
         }
     }

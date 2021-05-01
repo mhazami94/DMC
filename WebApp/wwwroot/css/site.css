@@ -115,9 +115,11 @@ strong {
 .dis-block {
     display: block !important;
 }
+
 .dis-none {
     display: none !important;
 }
+
 .social-text p {
     font-size: 12px;
     line-height: 30px;
@@ -1818,6 +1820,17 @@ option, select {
     -webkit-box-sizing: content-box;
     box-sizing: content-box;
     border-radius: 15px;
+}
+
+.login-input-check {
+    width: calc(70% + 30px);
+    margin: 0 auto 15px;
+    font-size: 12px;
+    color: #333;
+}
+
+.color-dark-gray {
+    color: #333;
 }
 
 .login-form-btn {
