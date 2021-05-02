@@ -227,6 +227,9 @@
 
 
 @media(max-width:768px) {
+    .top-banner > p {
+        font-size: 1.2em;
+    }
     .license-item {
         width: 27%;
     }
@@ -283,6 +286,8 @@
 
 
 @media(max-width:720px) {
+  
+
     .economic-box {
         display: block;
     }
@@ -294,6 +299,39 @@
 
 
 @media(max-width:576px) {
+    header {
+        margin-top: 165px;
+    }
+
+    nav {
+        top: 70px;
+    }
+
+    .top-banner {
+        height: 70px;
+        background: url('/img/TopMobil.png');
+    }
+
+        .top-banner > p {
+            color: #fff;
+            font-size: 14px;
+            margin-top: 10px;
+        }
+
+        .top-banner span {
+            font-weight: bold;
+        }
+
+    .top-banner-btn {
+        color: #fff;
+        margin-top: 10px;
+        display: inline-block;
+        border-radius: 34px;
+        background: #e1251b;
+        padding: 5px 30px;
+        font-size: 12px;
+    }
+
     .winning-trader {
         background: unset;
         border-radius: 0;
@@ -826,6 +864,7 @@
         background: #0c0f12;
         opacity: .8;
         display: none;
+        min-height: 1px;
     }
 
     .submenu-box ul {

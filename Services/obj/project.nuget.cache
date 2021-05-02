@@ -1,10 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "N00bKchWmxMzN35p/8yT8Us/czykyIQiDMM1vAQotCsszoLrZnVfnO6ASnsiHsDetMhcBH25bsR4zTuslahBug==",
+  "dgSpecHash": "0/z48ybBnrA8SNFeNm/aGzeSWKjM9+zsAGOw/rwuOvJwWd6zXcPv0LXqAcwr7DTuCzh6TA1GjkFPLiX1UrF8LA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\pc\\Source\\Repos\\mhazami94\\DMC\\Services\\Services.csproj",
+  "projectFilePath": "G:\\WorkSpace\\DMC\\Services\\Services.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\pc\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512"
+    "C:\\Users\\mohammad\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512"
   ],
   "logs": []
 }

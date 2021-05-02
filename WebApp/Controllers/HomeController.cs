@@ -11,6 +11,7 @@ using Microsoft.Extensions.Logging;
 using Newtonsoft.Json;
 using Services.FXServices;
 using Services.Mail;
+using WebApp.Helpers;
 using WebApp.Models;
 
 namespace WebApp.Controllers

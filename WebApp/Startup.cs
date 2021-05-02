@@ -10,6 +10,7 @@ using Microsoft.AspNetCore.HttpsPolicy;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
+using WebApp.Helpers;
 using WebMarkupMin.AspNetCore3;
 
 namespace WebApp
@@ -25,6 +26,16 @@ namespace WebApp
 
         public void ConfigureServices(IServiceCollection services)
         {
+            services.AddSingleton<IHttpContextAccessor, HttpContextAccessor>();
+            #region session
+            services.AddDistributedMemoryCache();
+            services.AddSession(options =>
+            {
+                options.Cookie.Name = ".dmc.Session";
+                options.IdleTimeout = TimeSpan.FromSeconds(20);
+                options.Cookie.IsEssential = true;
+            });
+            #endregion
             services.AddWebMarkupMin(options =>
             {
                 options.AllowMinificationInDevelopmentEnvironment = false;
@@ -38,7 +49,7 @@ namespace WebApp
             services.AddControllersWithViews();
         }
 
-        public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
+        public void Configure(IApplicationBuilder app, IWebHostEnvironment env, IServiceProvider svp)
         {
             if (env.IsDevelopment())
             {
@@ -50,6 +61,8 @@ namespace WebApp
                 // The default HSTS value is 30 days. You may want to change this for production scenarios, see https://aka.ms/aspnetcore-hsts.
                 app.UseHsts();
             }
+            IHttpContextAccessor accessor = svp.GetService<IHttpContextAccessor>();
+            MessageHandler.SetHttpContextAccessor(accessor);
 
             app.UseStaticFiles(new StaticFileOptions()
             {
@@ -70,7 +83,7 @@ namespace WebApp
             app.UseStaticFiles();
             app.UseRouting();
             app.UseResponseCompression();
-
+            app.UseSession();
             app.UseAuthorization();
             app.UseWebMarkupMin();
             app.UseEndpoints(endpoints =>
